@@ -10,10 +10,9 @@ import com.example.assignment2.QuizContract.*;
 import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class QuizDbHelper extends SQLiteOpenHelper {
-    private static final String DATABASE_NAME = "MyAwesomeQuiz.db";
+    private static final String DATABASE_NAME = "Korean1.db";
     private static final int DATABASE_VERSION = 1;
 
     private SQLiteDatabase db;
@@ -49,8 +48,8 @@ public class QuizDbHelper extends SQLiteOpenHelper {
     private void fillQuestionsTable() {
         Question q1 = new Question("Easy: A is correct", "A", "B", "C", 1, Question.DIFFICULTY_EASY);
         addQuestion(q1);
-        Question q2 = new Question("Medium: B is correct",
-                "A", "B", "C", 2, Question.DIFFICULTY_MEDIUM);
+        Question q2 = new Question("Medium1: B is correct",
+                "ㄱ", "B", "C", 2, Question.DIFFICULTY_MEDIUM);
         addQuestion(q2);
         Question q3 = new Question("Medium: C is correct",
                 "A", "B", "C", 3, Question.DIFFICULTY_MEDIUM);
@@ -119,7 +118,4 @@ public class QuizDbHelper extends SQLiteOpenHelper {
         c.close();
         return questionList;
     }
-
-
-
 }
