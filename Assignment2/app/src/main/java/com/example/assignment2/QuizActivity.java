@@ -78,7 +78,7 @@ public class QuizActivity extends AppCompatActivity {
         getTextColorDefaultCd = textViewCountDown.getTextColors();
 
         Intent intent = getIntent();
-        String difficulty = intent.getStringExtra(StartingScreenActivity.EXTRA_DIFFICULTY);
+        String difficulty = intent.getStringExtra(KoreanActivity.EXTRA_DIFFICULTY);
 
         textViewDifficulty.setText("Difficulty: " + difficulty);
 

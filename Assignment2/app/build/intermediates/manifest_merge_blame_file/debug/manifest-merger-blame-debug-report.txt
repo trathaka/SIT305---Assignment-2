@@ -11,7 +11,7 @@
 9-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:5:5-21:19
+11-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:5:5-23:19
 12        android:allowBackup="true"
 12-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -31,26 +31,32 @@
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme" >
 22-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:11:9-40
-23        <activity android:name="com.example.assignment2.StartingScreenActivity" />
-23-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:12:9-69
-23-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:12:19-57
-24        <activity android:name="com.example.assignment2.QuizActivity" />
-24-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:13:9-50
-24-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:13:19-47
-25        <activity android:name="com.example.assignment2.SplashScreen" >
-25-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:14:9-20:20
-25-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:14:19-47
-26            <intent-filter>
-26-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:15:13-19:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:16:17-69
-27-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:16:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:17-77
-29-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:27-74
-30            </intent-filter>
-31        </activity>
-32    </application>
-33
-34</manifest>
+23        <activity android:name="com.example.assignment2.MainActivity" />
+23-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:12:9-59
+23-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:12:19-47
+24        <activity android:name="com.example.assignment2.LanguageSelection" />
+24-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:13:9-55
+24-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:13:19-52
+25        <activity android:name="com.example.assignment2.KoreanActivity" />
+25-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:14:9-52
+25-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:14:19-49
+26        <activity android:name="com.example.assignment2.QuizActivity" />
+26-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:15:9-50
+26-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:15:19-47
+27        <activity android:name="com.example.assignment2.SplashScreen" >
+27-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:16:9-22:20
+27-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:16:19-47
+28            <intent-filter>
+28-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:17:13-21:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:17-69
+29-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:17-77
+31-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>

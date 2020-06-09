@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-public class StartingScreenActivity extends AppCompatActivity {
+public class KoreanActivity extends AppCompatActivity {
     private static final int REQUEST_CODE_QUIZ = 1;
     public static final String EXTRA_DIFFICULTY = "extraDifficulty";
 
@@ -50,7 +50,7 @@ public class StartingScreenActivity extends AppCompatActivity {
     private void startQuiz() {
         String difficulty = spinnerDifficulty.getSelectedItem().toString();
 
-        Intent intent = new Intent(StartingScreenActivity.this, QuizActivity.class);
+        Intent intent = new Intent(KoreanActivity.this, QuizActivity.class);
         intent.putExtra(EXTRA_DIFFICULTY, difficulty);
         startActivityForResult(intent, REQUEST_CODE_QUIZ);
     }

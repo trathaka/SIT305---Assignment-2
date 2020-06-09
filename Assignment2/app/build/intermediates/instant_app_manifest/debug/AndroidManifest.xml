@@ -21,7 +21,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.assignment2.StartingScreenActivity" />
+        <activity android:name="com.example.assignment2.MainActivity" />
+        <activity android:name="com.example.assignment2.LanguageSelection" />
+        <activity android:name="com.example.assignment2.KoreanActivity" />
         <activity android:name="com.example.assignment2.QuizActivity" />
         <activity android:name="com.example.assignment2.SplashScreen" >
             <intent-filter>
