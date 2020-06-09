@@ -827,6 +827,7 @@ id showCustom
 id showHome
 id showTitle
 id spacer
+id spinner_difficulty
 id split_action_bar
 id spread
 id spread_inside
@@ -851,6 +852,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id text_view_countdown
+id text_view_difficulty
 id text_view_highscore
 id text_view_question
 id text_view_question_count
