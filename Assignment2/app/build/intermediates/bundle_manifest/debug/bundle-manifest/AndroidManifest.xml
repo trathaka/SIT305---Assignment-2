@@ -20,10 +20,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.assignment2.MainActivity" />
+        <activity android:name="com.example.assignment2.Fragments.Main.MainPageFragment" />
         <activity android:name="com.example.assignment2.LanguageSelection" />
-        <activity android:name="com.example.assignment2.KoreanActivity" />
-        <activity android:name="com.example.assignment2.QuizActivity" />
+        <activity android:name="com.example.assignment2.KoreanLesson.Korean1Activity" />
+        <activity android:name="com.example.assignment2.KoreanLesson.Korean1QuizActivity" />
+        <activity android:name="com.example.assignment2.KoreanLesson.Korean2Activity" />
+        <activity android:name="com.example.assignment2.KoreanLesson.Korean2QuizActivity" />
+        <activity android:name="com.example.assignment2.KoreanLesson.Korean3Activity" />
+        <activity android:name="com.example.assignment2.KoreanLesson.Korean3QuizActivity" />
         <activity android:name="com.example.assignment2.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

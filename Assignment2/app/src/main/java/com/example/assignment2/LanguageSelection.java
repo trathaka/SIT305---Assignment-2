@@ -14,6 +14,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.example.assignment2.Fragments.Main.MainPageFragment;
 
 public class LanguageSelection extends AppCompatActivity implements AdapterView.OnItemClickListener {
     String[] name = {"Korean", "Japanese", "Chinese", "French" ,"Spanish" ,"Arabic" ,"Hindi"};
@@ -32,12 +35,47 @@ public class LanguageSelection extends AppCompatActivity implements AdapterView.
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        //Toast.makeText(LanguageSelection.this, "You clicked at " + position, Toast.LENGTH_SHORT).show();
+
 
         if (position == 0){
-            Intent intent = new Intent (this, MainActivity.class);
+            Intent intent = new Intent (this, MainPageFragment.class);
             startActivity(intent);
         }
+
+        if (position == 1){
+            Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
+
+        }
+
+        if (position == 2){
+            Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
+
+        }
+
+        if (position == 3){
+            Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
+        }
+
+        if (position == 4){
+            Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
+        }
+
+        if (position == 5){
+            Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
+        }
+
+        if (position == 6){
+            Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
+        }
+
+        if (position == 7){
+            Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
+        }
+
+        if (position == 8){
+            Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
+        }
+
     }
 }
 

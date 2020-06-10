@@ -1765,7 +1765,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_korean_activity
+layout activity_korean1_activity
+layout activity_korean2_activity
+layout activity_korean3_activity
 layout activity_language_selection
 layout activity_main
 layout activity_quiz

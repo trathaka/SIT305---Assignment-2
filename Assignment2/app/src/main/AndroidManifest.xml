@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Fragments.Main.MainPageFragment"></activity>
         <activity android:name=".LanguageSelection" />
-        <activity android:name=".KoreanActivity" />
-        <activity android:name=".QuizActivity" />
+        <activity android:name=".KoreanLesson.Korean1Activity" />
+        <activity android:name=".KoreanLesson.Korean1QuizActivity" />
+        <activity android:name=".KoreanLesson.Korean2Activity" />
+        <activity android:name=".KoreanLesson.Korean2QuizActivity" />
+        <activity android:name=".KoreanLesson.Korean3Activity" />
+        <activity android:name=".KoreanLesson.Korean3QuizActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\809fe86d9d640080daf2379b1c653795\jetified-easy-android-splash-screen-0.0.1\AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\ae67d481176994a76afa6f312b4e8a78\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\ef8a364a6a39421e69c96cf68eeb3e63\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -32,25 +32,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rath-\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\9c0d2720907bb8bd5d5976efee735314\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\d00c90699ae27cc1e1ce5e4b3e530617\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\13ac386f95e101744ae5f7d486caaa8c\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml
 		INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\809fe86d9d640080daf2379b1c653795\jetified-easy-android-splash-screen-0.0.1\AndroidManifest.xml:12:5-17:19
 MERGED from [gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\809fe86d9d640080daf2379b1c653795\jetified-easy-android-splash-screen-0.0.1\AndroidManifest.xml:12:5-17:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\ae67d481176994a76afa6f312b4e8a78\material-1.1.0\AndroidManifest.xml:22:5-20
@@ -77,36 +77,52 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ra
 		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.assignment2.MainActivity
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:12:9-59
+activity#com.example.assignment2.Fragments.Main.MainPageFragment
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:12:9-78
 	android:name
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:12:19-66
 activity#com.example.assignment2.LanguageSelection
 ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:13:9-55
 	android:name
 		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:13:19-52
-activity#com.example.assignment2.KoreanActivity
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:14:9-52
+activity#com.example.assignment2.KoreanLesson.Korean1Activity
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:14:9-66
 	android:name
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:14:19-49
-activity#com.example.assignment2.QuizActivity
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:15:9-50
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:14:19-63
+activity#com.example.assignment2.KoreanLesson.Korean1QuizActivity
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:15:9-70
 	android:name
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:15:19-47
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:15:19-67
+activity#com.example.assignment2.KoreanLesson.Korean2Activity
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:16:9-66
+	android:name
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:16:19-63
+activity#com.example.assignment2.KoreanLesson.Korean2QuizActivity
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:17:9-70
+	android:name
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:17:19-67
+activity#com.example.assignment2.KoreanLesson.Korean3Activity
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:9-66
+	android:name
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:19-63
+activity#com.example.assignment2.KoreanLesson.Korean3QuizActivity
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:9-70
+	android:name
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:19-67
 activity#com.example.assignment2.SplashScreen
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:16:19-47
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml
