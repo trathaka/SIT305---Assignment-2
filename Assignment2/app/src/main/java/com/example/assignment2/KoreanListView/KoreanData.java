@@ -4,7 +4,7 @@ import com.example.assignment2.R;
 
 public class KoreanData {
     public static String[] title = new String[]{
-            "Lesson 1", "Lesson 2", "Lesson 3", "Lesson 4", "Lesson 5", "Lesson 6", "Lesson 8",
+            "Kor Lesson 1", "Kor Lesson 2", "Kor Lesson 3", "Kor Lesson 4", "Kor Lesson 5", "Kor Lesson 6", "Kor Lesson 8",
     };
 
     public static int[] image = new int[]{

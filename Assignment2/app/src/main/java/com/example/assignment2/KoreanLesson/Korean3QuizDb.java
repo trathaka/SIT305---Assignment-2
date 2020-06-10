@@ -13,7 +13,7 @@ import com.example.assignment2.KoreanLesson.Korean3QuizContract.QuestionsTable;
 import java.util.ArrayList;
 
 public class Korean3QuizDb extends SQLiteOpenHelper {
-    private static final String DATABASE_NAME = "Japanese1.db";
+    private static final String DATABASE_NAME = "Korean3.db";
     private static final int DATABASE_VERSION = 1;
 
     private SQLiteDatabase db;

@@ -16,7 +16,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.assignment2.Fragments.Main.MainPageFragment;
+import com.example.assignment2.JapaneseNavigation.JapaneseMainFragment;
+import com.example.assignment2.KoreanNavigation.KoreanMainFragment;
 
 public class LanguageSelection extends AppCompatActivity implements AdapterView.OnItemClickListener {
     String[] name = {"Korean", "Japanese", "Chinese", "French" ,"Spanish" ,"Arabic" ,"Hindi"};
@@ -38,12 +39,13 @@ public class LanguageSelection extends AppCompatActivity implements AdapterView.
 
 
         if (position == 0){
-            Intent intent = new Intent (this, MainPageFragment.class);
+            Intent intent = new Intent (this, KoreanMainFragment.class);
             startActivity(intent);
         }
 
         if (position == 1){
-            Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent (this, JapaneseMainFragment.class);
+            startActivity(intent);
 
         }
 
@@ -84,14 +86,14 @@ class MyAdapter extends ArrayAdapter {
     String[] nameArray;
 
     public MyAdapter(@NonNull Context context, String[] name1, int[] img1) {
-        super(context, R.layout.language_listview_layout,R.id.idName,name1);
+        super(context, R.layout.language_selection_layout,R.id.idName,name1);
         this.imageArray = img1;
         this.nameArray = name1;
     }
 
     public View getView(int position, View convertView, ViewGroup parent){
         LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View row = inflater.inflate(R.layout.language_listview_layout,parent, false);
+        View row = inflater.inflate(R.layout.language_selection_layout,parent, false);
 
         ImageView myImage = row.findViewById(R.id.idPic);
         TextView myName = row.findViewById(R.id.idName);
