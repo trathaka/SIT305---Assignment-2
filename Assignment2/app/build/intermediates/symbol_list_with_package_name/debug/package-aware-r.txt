@@ -1385,6 +1385,8 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id KimageView
+id KtextView
 id META
 id SHIFT
 id SYM
@@ -1537,6 +1539,7 @@ id left
 id line1
 id line3
 id listMode
+id listRecyclerView
 id list_item
 id logo
 id masked
@@ -1668,6 +1671,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
 id text_input_end_icon
 id text_input_start_icon
 id text_view_countdown
@@ -1761,10 +1765,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_korean_activity
 layout activity_language_selection
 layout activity_main
 layout activity_quiz
-layout activity_starting_screen
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1784,6 +1788,7 @@ layout design_text_input_start_icon
 layout fragment_home
 layout fragment_profile
 layout fragment_setting
+layout korean_list_item
 layout language_listview_layout
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions

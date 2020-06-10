@@ -28,7 +28,7 @@ public class KoreanActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_starting_screen);
+        setContentView(R.layout.activity_korean_activity);
 
         textViewHighScore = findViewById(R.id.text_view_highscore);
         spinnerDifficulty = findViewById(R.id.spinner_difficulty);
