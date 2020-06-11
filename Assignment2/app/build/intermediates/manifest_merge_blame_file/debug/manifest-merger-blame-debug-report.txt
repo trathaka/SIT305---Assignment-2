@@ -15,7 +15,7 @@
 11-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:6:5-37:19
+13-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:6:5-41:19
 14        android:allowBackup="true"
 14-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:7:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -100,44 +100,52 @@
 46-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:34:27-74
 47            </intent-filter>
 48        </activity>
-49        <activity
-49-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
-50            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-50-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
-51            android:excludeFromRecents="true"
-51-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
-52            android:exported="false"
-52-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
-53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-53-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
-54        <!--
-55            Service handling Google Sign-In user revocation. For apps that do not integrate with
-56            Google Sign-In, this service will never be started.
-57        -->
-58        <service
-58-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
-59            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-59-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
-60            android:exported="true"
-60-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
-61            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-61-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
-62
-63        <activity
-63-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-64-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-65            android:exported="false"
-65-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-66-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+49
+50        <meta-data
+50-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:38:9-40:57
+51            android:name="preloaded_fonts"
+51-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:39:13-43
+52            android:resource="@array/preloaded_fonts" />
+52-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:40:13-54
+53
+54        <activity
+54-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+55            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+55-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+56            android:excludeFromRecents="true"
+56-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+57            android:exported="false"
+57-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+59        <!--
+60            Service handling Google Sign-In user revocation. For apps that do not integrate with
+61            Google Sign-In, this service will never be started.
+62        -->
+63        <service
+63-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+64            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+64-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+65            android:exported="true"
+65-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+66            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+66-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
 67
-68        <meta-data
-68-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\a92bf8e4d13efc89cb8c5fc86f0b1ad8\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
-69            android:name="com.google.android.gms.version"
-69-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\a92bf8e4d13efc89cb8c5fc86f0b1ad8\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
-70            android:value="@integer/google_play_services_version" />
-70-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\a92bf8e4d13efc89cb8c5fc86f0b1ad8\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
-71    </application>
+68        <activity
+68-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 72
-73</manifest>
+73        <meta-data
+73-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\a92bf8e4d13efc89cb8c5fc86f0b1ad8\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+74            android:name="com.google.android.gms.version"
+74-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\a92bf8e4d13efc89cb8c5fc86f0b1ad8\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+75            android:value="@integer/google_play_services_version" />
+75-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\a92bf8e4d13efc89cb8c5fc86f0b1ad8\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+76    </application>
+77
+78</manifest>

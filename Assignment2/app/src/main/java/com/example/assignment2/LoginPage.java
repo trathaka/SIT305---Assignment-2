@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -71,6 +72,7 @@ public class LoginPage extends AppCompatActivity {
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
+
     }
 
     @Override
@@ -93,6 +95,7 @@ public class LoginPage extends AppCompatActivity {
             // Signed in successfully, show authenticated UI.
             Intent intent = new Intent(LoginPage.this, LanguageSelection.class);
             startActivity(intent);
+            Toast.makeText(LoginPage.this,"Signed in via Google Account", Toast.LENGTH_SHORT).show();
         } catch (ApiException e) {
             // The ApiException status code indicates the detailed failure reason.
             // Please refer to the GoogleSignInStatusCodes class reference for more information.

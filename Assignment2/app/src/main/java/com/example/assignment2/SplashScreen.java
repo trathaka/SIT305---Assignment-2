@@ -17,18 +17,12 @@ public class SplashScreen extends AppCompatActivity {
         EasySplashScreen config = new EasySplashScreen(SplashScreen.this)
                 .withFullScreen()
                 .withTargetActivity(LoginPage.class)
-                .withSplashTimeOut(2000)
-                .withBackgroundColor(Color.parseColor("#43b4ef"))
-                //.withHeaderText("Header")
-                .withFooterText("Footer")
-                //.withBeforeLogoText("Before Logo Text")
-                .withAfterLogoText("After Logo Text")
-                .withLogo(R.mipmap.ic_launcher_round);
+                .withSplashTimeOut(3000)
+                .withBackgroundColor(Color.parseColor("#edb007"))
+                .withFooterText("Assignment 2")
+                .withLogo(R.drawable.monkey);
 
-        //config.getHeaderTextView().setTextColor(Color.WHITE);
         config.getFooterTextView().setTextColor(Color.WHITE);
-        //config.getBeforeLogoTextView().setTextColor(Color.WHITE);
-        config.getAfterLogoTextView().setTextColor(Color.WHITE);
 
         View splashScreen = config.create();
         setContentView(splashScreen);

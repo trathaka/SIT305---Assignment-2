@@ -25,9 +25,25 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="Continue without login"
+        android:textSize="14sp"
         android:textColor="#F3E4E4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sign_in_button" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="306dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="156dp"
+        android:text="MONKIFY"
+        android:textColor="#FFFFFF"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/unkempt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

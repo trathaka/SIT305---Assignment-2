@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="#edb007"
     android:padding="16dp"
     tools:context=".JapaneseLesson.Japanese2Activity">
 
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:text="Japanese2"
+        android:text="Animals"
         android:textColor="@android:color/black"
         android:textSize="35sp" />
     <TextView
