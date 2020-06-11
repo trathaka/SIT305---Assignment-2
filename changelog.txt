@@ -18,8 +18,7 @@
 		- Implementing a bottom navigation, desiging to output content to each fragment
 10/06/2020 	- Adding language selection listView, creating app flows between activities of certian languages (Korean & Japanese) and general navigations
 		- Creating Korean and Japanese lessons through listView items on fragments	
-11/06/2020 	- Implementing Facebook login intergration
-		- Creating layout for 'Profile' fragment with Facebook login
+11/06/2020 	- Implementing Google login intergration
+		- Creating layout for 'Profile' fragment with Google login
 		- Finalising and polishing Korean and Japanese questions and overall aesthetics
-		- Creating layout for 'Setting' fragment
-12/06/2020	- 
+		
