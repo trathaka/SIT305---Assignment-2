@@ -69,7 +69,6 @@ public class LogoutPage extends AppCompatActivity {
 
     }
 
-
     private void signOut() {
         mGoogleSignInClient.signOut()
                 .addOnCompleteListener(this, new OnCompleteListener<Void>() {

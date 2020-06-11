@@ -1636,6 +1636,7 @@ id nav_profile
 id nav_setting
 id navigation_header_container
 id never
+id noLogin
 id noScroll
 id none
 id normal
@@ -1731,8 +1732,10 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
-id textView2
 id textView3
+id textViewEmail
+id textViewID
+id textViewName
 id text_input_end_icon
 id text_input_start_icon
 id text_view_countdown
