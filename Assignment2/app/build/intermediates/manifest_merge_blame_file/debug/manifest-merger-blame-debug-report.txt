@@ -10,86 +10,134 @@
 9        android:targetSdkVersion="29" />
 9-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:5:5-34:19
-12        android:allowBackup="true"
-12-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
-14        android:configChanges="orientation|keyboardHidden|screenSize"
-14-->[gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\809fe86d9d640080daf2379b1c653795\jetified-easy-android-splash-screen-0.0.1\AndroidManifest.xml:14:9-70
-15        android:debuggable="true"
-16        android:extractNativeLibs="false"
-17        android:icon="@mipmap/ic_launcher"
-17-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:7:9-43
-18        android:label="@string/app_name"
-18-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:8:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:9:9-54
-20        android:supportsRtl="true"
-20-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:10:9-35
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme" >
-22-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:11:9-40
-23        <activity android:name="com.example.assignment2.KoreanNavigation.KoreanMainFragment" />
-23-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:12:9-82
-23-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:12:19-70
-24        <activity android:name="com.example.assignment2.JapaneseNavigation.JapaneseMainFragment" />
-24-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:13:9-76
-24-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:13:19-74
-25        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese1Activity" />
-25-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:14:9-70
-25-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:14:19-67
-26        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese1QuizActivity" />
-26-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:15:9-74
-26-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:15:19-71
-27        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese2Activity" />
-27-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:16:9-70
-27-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:16:19-67
-28        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese2QuizActivity" />
-28-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:17:9-74
-28-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:17:19-71
-29        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese3Activity" />
-29-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:9-70
-29-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:19-67
-30        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese3QuizActivity" />
-30-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:9-74
-30-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:19-71
-31        <activity android:name="com.example.assignment2.LanguageSelection" />
-31-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:9-55
-31-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:19-52
-32        <activity android:name="com.example.assignment2.KoreanLesson.Korean1Activity" />
-32-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:21:9-66
-32-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:21:19-63
-33        <activity android:name="com.example.assignment2.KoreanLesson.Korean1QuizActivity" />
-33-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:22:9-70
-33-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:22:19-67
-34        <activity android:name="com.example.assignment2.KoreanLesson.Korean2Activity" />
-34-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:23:9-66
-34-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:23:19-63
-35        <activity android:name="com.example.assignment2.KoreanLesson.Korean2QuizActivity" />
-35-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:24:9-70
-35-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:24:19-67
-36        <activity android:name="com.example.assignment2.KoreanLesson.Korean3Activity" />
-36-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:25:9-66
-36-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:25:19-63
-37        <activity android:name="com.example.assignment2.KoreanLesson.Korean3QuizActivity" />
-37-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:26:9-70
-37-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:26:19-67
-38        <activity android:name="com.example.assignment2.SplashScreen" >
-38-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:27:9-33:20
-38-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:27:19-47
-39            <intent-filter>
-39-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:28:13-32:29
-40                <action android:name="android.intent.action.MAIN" />
-40-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:29:17-69
-40-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:29:25-66
-41
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:31:17-77
-42-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:31:27-74
-43            </intent-filter>
-44        </activity>
-45    </application>
-46
-47</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:5:5-67
+11-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:6:5-37:19
+14        android:allowBackup="true"
+14-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:configChanges="orientation|keyboardHidden|screenSize"
+16-->[gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\809fe86d9d640080daf2379b1c653795\jetified-easy-android-splash-screen-0.0.1\AndroidManifest.xml:14:9-70
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:8:9-43
+20        android:label="@string/app_name"
+20-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:9:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:10:9-54
+22        android:supportsRtl="true"
+22-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:11:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:12:9-40
+25        <activity android:name="com.example.assignment2.LogoutPage" />
+25-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:13:9-57
+25-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:13:19-45
+26        <activity android:name="com.example.assignment2.LoginPage" />
+26-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:14:9-47
+26-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:14:19-44
+27        <activity android:name="com.example.assignment2.KoreanNavigation.KoreanMainFragment" />
+27-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:15:9-73
+27-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:15:19-70
+28        <activity android:name="com.example.assignment2.JapaneseNavigation.JapaneseMainFragment" />
+28-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:16:9-77
+28-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:16:19-74
+29        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese1Activity" />
+29-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:17:9-70
+29-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:17:19-67
+30        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese1QuizActivity" />
+30-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:9-74
+30-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:19-71
+31        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese2Activity" />
+31-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:9-70
+31-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:19-67
+32        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese2QuizActivity" />
+32-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:9-74
+32-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:19-71
+33        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese3Activity" />
+33-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:21:9-70
+33-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:21:19-67
+34        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese3QuizActivity" />
+34-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:22:9-74
+34-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:22:19-71
+35        <activity android:name="com.example.assignment2.LanguageSelection" />
+35-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:23:9-55
+35-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:23:19-52
+36        <activity android:name="com.example.assignment2.KoreanLesson.Korean1Activity" />
+36-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:24:9-66
+36-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:24:19-63
+37        <activity android:name="com.example.assignment2.KoreanLesson.Korean1QuizActivity" />
+37-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:25:9-70
+37-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:25:19-67
+38        <activity android:name="com.example.assignment2.KoreanLesson.Korean2Activity" />
+38-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:26:9-66
+38-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:26:19-63
+39        <activity android:name="com.example.assignment2.KoreanLesson.Korean2QuizActivity" />
+39-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:27:9-70
+39-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:27:19-67
+40        <activity android:name="com.example.assignment2.KoreanLesson.Korean3Activity" />
+40-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:28:9-66
+40-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:28:19-63
+41        <activity android:name="com.example.assignment2.KoreanLesson.Korean3QuizActivity" />
+41-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:29:9-70
+41-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:29:19-67
+42        <activity android:name="com.example.assignment2.SplashScreen" >
+42-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:30:9-36:20
+42-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:30:19-47
+43            <intent-filter>
+43-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:31:13-35:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:32:17-69
+44-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:32:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:34:17-77
+46-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:34:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+50            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+50-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+51            android:excludeFromRecents="true"
+51-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+53-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+54        <!--
+55            Service handling Google Sign-In user revocation. For apps that do not integrate with
+56            Google Sign-In, this service will never be started.
+57        -->
+58        <service
+58-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+59            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+59-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+60            android:exported="true"
+60-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+61            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+61-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\58617c966c89c76dcc442a6527d5e350\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\a92bf8e4d13efc89cb8c5fc86f0b1ad8\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\a92bf8e4d13efc89cb8c5fc86f0b1ad8\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\a92bf8e4d13efc89cb8c5fc86f0b1ad8\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+71    </application>
+72
+73</manifest>
