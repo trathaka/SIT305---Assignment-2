@@ -1,2 +1,25 @@
 
 14/05/2020 - Setting up the project to GitHub
+16-21/05/2020 	- Implemeting multiple choice questions activity layouts and flows with intent
+	   	- Preparing model classes for questions and contract class, containing variables for table and column in SQLite datbase	
+	  	- Prepraring SQLiteOpenHelper class to create a database, defining database name and version.
+	  	- Using execSQL method to create the database through SQL commands
+	  	- Querying the databse with a cursor by calling getReadableDatabase and a rawQuery, return it a an ArrayList to use outside of SQLiteOpenHelper class	
+		- Displaying questions in the activity, recording the answers, show the solutions and show points for the correct ones
+		- Implementing and changing intent methods using REQUEST_CODE(startActivity to startActivityForResult) in order to record, pass and display highscore values
+		  using sharePreferences
+		- Implementing onBackPressed method logic to quit during the current activity
+05/06/2020 	- Implementing a countdown timer for each question, the solution will show once the timer reaches 0
+06/06/2020 	- Solving runtime configurations (destroy and recreate processes) for the acitivites  when orientation changes using onSaveInstanceState and savedInstanceState bundle
+07/06/2020	- Adding difficulty levels (Easy, Medium, Hard), returning entries which fit the chosen level using rawQuery
+08/06/2020 	- General code and files clean ups
+09/06/2020	- Adding a spinner for difficulty selections, retrieving the tables that match the stated and chosen difficulty
+		- Drafting a basic app splash screen using with timer
+		- Implementing a bottom navigation, desiging to output content to each fragment
+10/06/2020 	- Adding language selection listView, creating app flows between activities of certian languages (Korean & Japanese) and general navigations
+		- Creating Korean and Japanese lessons through listView items on fragments	
+11/06/2020 	- Implementing Facebook login intergration
+		- Creating layout for 'Profile' fragment with Facebook login
+		- Finalising and polishing Korean and Japanese questions and overall aesthetics
+		- Creating layout for 'Setting' fragment
+12/06/2020	- 

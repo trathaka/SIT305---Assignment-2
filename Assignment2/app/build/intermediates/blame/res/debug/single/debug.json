@@ -8,12 +8,24 @@
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_greek.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\greek.png"
+    },
+    {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_swedish.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\swedish.png"
+    },
+    {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vietnamese.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\vietnamese.png"
     },
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_japanese3_activity.xml.flat",
@@ -22,6 +34,10 @@
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_japanese2_activity.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\activity_japanese2_activity.xml"
+    },
+    {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_french.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\french.png"
     },
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
@@ -36,16 +52,24 @@
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_japanese.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\japanese.png"
     },
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_radio_quiz_layout.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\activity_radio_quiz_layout.xml"
     },
     {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chinese.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\chinese.png"
     },
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -56,16 +80,24 @@
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\activity_language_selection.xml"
     },
     {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_italian.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\italian.png"
+    },
+    {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_navigation.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\menu\\bottom_navigation.xml"
     },
     {
-        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_setting.xml.flat",
-        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\fragment_setting.xml"
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hindi.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\hindi.png"
     },
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_black_24dp.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_setting.xml.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\fragment_setting.xml"
     },
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -76,12 +108,20 @@
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mexican.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\mexican.png"
+    },
+    {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_japanese_home.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\fragment_japanese_home.xml"
     },
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spanish.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\spanish.png"
     },
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_language_selection_layout.xml.flat",
@@ -96,24 +136,24 @@
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_korean2_activity.xml.flat",
-        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\activity_korean2_activity.xml"
-    },
-    {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_lesson_selection_listview.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\lesson_selection_listview.xml"
+    },
+    {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_korean2_activity.xml.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\activity_korean2_activity.xml"
     },
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_japanese1_activity.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\activity_japanese1_activity.xml"
     },
     {
-        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
-        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\fragment_profile.xml"
-    },
-    {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_korean3_activity.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\activity_korean3_activity.xml"
+    },
+    {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -130,5 +170,13 @@
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_settings_black_24dp.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\ic_settings_black_24dp.xml"
+    },
+    {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_korean.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\korean.png"
+    },
+    {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_german.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\german.png"
     }
 ]

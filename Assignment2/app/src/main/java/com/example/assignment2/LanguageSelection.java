@@ -20,8 +20,10 @@ import com.example.assignment2.JapaneseNavigation.JapaneseMainFragment;
 import com.example.assignment2.KoreanNavigation.KoreanMainFragment;
 
 public class LanguageSelection extends AppCompatActivity implements AdapterView.OnItemClickListener {
-    String[] name = {"Korean", "Japanese", "Chinese", "French" ,"Spanish" ,"Arabic" ,"Hindi"};
-    int[] images = {R.drawable.ic_launcher_background, R.drawable.ic_launcher_background, R.drawable.ic_launcher_background, R.drawable.ic_launcher_background, R.drawable.ic_launcher_background, R.drawable.ic_launcher_background, R.drawable.ic_launcher_background,};
+    String[] name = {"Korean", "Japanese", "Chinese", "Mexican", "German", "Greek", "Hindi", "Italian", "French" ,"Spanish", "Swedish" ,"Vietnamese"};
+    int[] images = {R.drawable.korean, R.drawable.japanese, R.drawable.chinese, R.drawable.mexican,
+                    R.drawable.german, R.drawable.greek, R.drawable.hindi, R.drawable.italian,
+                    R.drawable.french, R.drawable.spanish, R.drawable.swedish, R.drawable.vietnamese};
     ListView lv;
 
     @Override
@@ -29,7 +31,7 @@ public class LanguageSelection extends AppCompatActivity implements AdapterView.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_language_selection);
         lv = findViewById(R.id.idListView);
-        MyAdapter adapter = new MyAdapter(getBaseContext(),name,images);
+        MyAdapter adapter = new MyAdapter(getBaseContext(), name, images);
         lv.setAdapter(adapter);
         lv.setOnItemClickListener(this);
     }
@@ -38,43 +40,43 @@ public class LanguageSelection extends AppCompatActivity implements AdapterView.
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
 
-        if (position == 0){
-            Intent intent = new Intent (this, KoreanMainFragment.class);
+        if (position == 0) {
+            Intent intent = new Intent(this, KoreanMainFragment.class);
             startActivity(intent);
         }
 
-        if (position == 1){
-            Intent intent = new Intent (this, JapaneseMainFragment.class);
+        if (position == 1) {
+            Intent intent = new Intent(this, JapaneseMainFragment.class);
             startActivity(intent);
 
         }
 
-        if (position == 2){
+        if (position == 2) {
             Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
 
         }
 
-        if (position == 3){
+        if (position == 3) {
             Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
         }
 
-        if (position == 4){
+        if (position == 4) {
             Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
         }
 
-        if (position == 5){
+        if (position == 5) {
             Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
         }
 
-        if (position == 6){
+        if (position == 6) {
             Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
         }
 
-        if (position == 7){
+        if (position == 7) {
             Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
         }
 
-        if (position == 8){
+        if (position == 8) {
             Toast.makeText(LanguageSelection.this, "Coming soon!", Toast.LENGTH_SHORT).show();
         }
 
@@ -86,14 +88,14 @@ class MyAdapter extends ArrayAdapter {
     String[] nameArray;
 
     public MyAdapter(@NonNull Context context, String[] name1, int[] img1) {
-        super(context, R.layout.language_selection_layout,R.id.idName,name1);
+        super(context, R.layout.language_selection_layout, R.id.idName, name1);
         this.imageArray = img1;
         this.nameArray = name1;
     }
 
-    public View getView(int position, View convertView, ViewGroup parent){
+    public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View row = inflater.inflate(R.layout.language_selection_layout,parent, false);
+        View row = inflater.inflate(R.layout.language_selection_layout, parent, false);
 
         ImageView myImage = row.findViewById(R.id.idPic);
         TextView myName = row.findViewById(R.id.idName);
