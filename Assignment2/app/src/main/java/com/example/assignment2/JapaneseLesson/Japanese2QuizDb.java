@@ -46,23 +46,48 @@ public class Japanese2QuizDb extends SQLiteOpenHelper {
         onCreate(db);
     }
     private void fillQuestionsTable() {
-        Japanese2Question q1 = new Japanese2Question("Japanese Easy: A is correct", "A", "B", "C", 1, Japanese2Question.DIFFICULTY_EASY);
+        Japanese2Question q1 = new Japanese2Question("とり (Tori)", "Bird", "Pig", "Sheep", 1, Japanese2Question.DIFFICULTY_EASY);
         addQuestion(q1);
-        Japanese2Question q2 = new Japanese2Question("Japanese Medium1: B is correct",
-                "ㄱ", "B", "C", 2, Japanese2Question.DIFFICULTY_MEDIUM);
+        Japanese2Question q2 = new Japanese2Question("ねこ (Neko)", "Eagle", "Cat", "Goat", 2, Japanese2Question.DIFFICULTY_EASY);
         addQuestion(q2);
-        Japanese2Question q3 = new Japanese2Question("Japanesen Medium: C is correct",
-                "A", "B", "C", 3, Japanese2Question.DIFFICULTY_MEDIUM);
+        Japanese2Question q3 = new Japanese2Question("いぬ (Inu)", "Oyster", "Dog", "Crab", 2, Japanese2Question.DIFFICULTY_EASY);
         addQuestion(q3);
-        Japanese2Question q4 = new Japanese2Question("Japanese Hard: A is correct",
-                "A", "B", "C", 1, Japanese2Question.DIFFICULTY_HARD);
+        Japanese2Question q4 = new Japanese2Question("ハチ(Hachi)", "Firefly", "Lizard", "Bee", 3, Japanese2Question.DIFFICULTY_EASY);
         addQuestion(q4);
-        Japanese2Question q5 = new Japanese2Question("Japanese Hard: B is correct",
-                "A", "B", "C", 2, Japanese2Question.DIFFICULTY_HARD);
+        Japanese2Question q5 = new Japanese2Question("ハエ(Hae)", "Tiger", "Otter", "Fly", 3, Japanese2Question.DIFFICULTY_EASY);
         addQuestion(q5);
-        Japanese2Question q6 = new Japanese2Question("Japanese Hard: C is correct",
-                "A", "B", "C", 3, Japanese2Question.DIFFICULTY_HARD);
+
+        Japanese2Question q6 = new Japanese2Question("キツネ (Kitsune)",
+                "Horse", "Fox", "Owl", 2, Japanese2Question.DIFFICULTY_MEDIUM);
         addQuestion(q6);
+        Japanese2Question q7 = new Japanese2Question("タヌキ (Tanuki)",
+                "Dolphin", "Centipede", "Raccoon", 3, Japanese2Question.DIFFICULTY_MEDIUM);
+        addQuestion(q7);
+        Japanese2Question q8 = new Japanese2Question("ゴキブリ (Gokiburi)",
+                "Cockroach", "Peafowl", "Chimpanzee", 1, Japanese2Question.DIFFICULTY_MEDIUM);
+        addQuestion(q8);
+        Japanese2Question q9 = new Japanese2Question("カンガルー (kangaru)",
+                "Kangaroo", "Coyote", "Dingo", 1, Japanese2Question.DIFFICULTY_MEDIUM);
+        addQuestion(q9);
+        Japanese2Question q10 = new Japanese2Question("ハクチョウ (hakuchou)",
+                "Giraffe", "Hornbill", "Swan", 3, Japanese2Question.DIFFICULTY_MEDIUM);
+        addQuestion(q10);
+
+        Japanese2Question q11 = new Japanese2Question("シマウマ (Shimauma)",
+                "Meerkat", "Zebra", "Koala", 2, Japanese2Question.DIFFICULTY_HARD);
+        addQuestion(q11);
+        Japanese2Question q12 = new Japanese2Question("ムカデ (mukade)",
+                "Moth", "Centipede", "Skunk", 2, Japanese2Question.DIFFICULTY_HARD);
+        addQuestion(q12);
+        Japanese2Question q13 = new Japanese2Question("コウモリ (Koumori)",
+                "Rabbit", "Quail", "Bat", 3, Japanese2Question.DIFFICULTY_HARD);
+        addQuestion(q13);
+        Japanese2Question q14 = new Japanese2Question("じんちょう(jinchou)",
+                "Penguin", "Owl", "Yak", 1, Japanese2Question.DIFFICULTY_HARD);
+        addQuestion(q14);
+        Japanese2Question q15 = new Japanese2Question("カタツムリ (katatsumuri)",
+                "Snail", "Leopard", "Jaguar", 1, Japanese2Question.DIFFICULTY_HARD);
+        addQuestion(q15);
 
     }
 

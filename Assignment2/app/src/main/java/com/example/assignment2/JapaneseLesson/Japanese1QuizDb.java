@@ -47,23 +47,49 @@ public class Japanese1QuizDb extends SQLiteOpenHelper {
         onCreate(db);
     }
     private void fillQuestionsTable() {
-        Japanese1Question q1 = new Japanese1Question("Japanese Easy: A is correct", "A", "B", "C", 1, Japanese1Question.DIFFICULTY_EASY);
+        Japanese1Question q1 = new Japanese1Question("コーヒー (Kōhī)", "Coffee", "Milk", "Tea", 1, Japanese1Question.DIFFICULTY_EASY);
         addQuestion(q1);
-        Japanese1Question q2 = new Japanese1Question("Japanese Medium1: B is correct",
-                "ㄱ", "B", "C", 2, Japanese1Question.DIFFICULTY_MEDIUM);
+        Japanese1Question q2 = new Japanese1Question("牛乳 (Gyūnyū)", "Tea", "Milk", "Coffee", 2, Japanese1Question.DIFFICULTY_EASY);
         addQuestion(q2);
-        Japanese1Question q3 = new Japanese1Question("Japanesen Medium: C is correct",
-                "A", "B", "C", 3, Japanese1Question.DIFFICULTY_MEDIUM);
+        Japanese1Question q3 = new Japanese1Question("ビール (Bīru)", "Champagne", "Wine", "Beer", 3, Japanese1Question.DIFFICULTY_EASY);
         addQuestion(q3);
-        Japanese1Question q4 = new Japanese1Question("Japanese Hard: A is correct",
-                "A", "B", "C", 1, Japanese1Question.DIFFICULTY_HARD);
+        Japanese1Question q4 = new Japanese1Question("肉 (Niku)", "Meat", "Fish", "Vegetables", 1, Japanese1Question.DIFFICULTY_EASY);
         addQuestion(q4);
-        Japanese1Question q5 = new Japanese1Question("Japanese Hard: B is correct",
-                "A", "B", "C", 2, Japanese1Question.DIFFICULTY_HARD);
+        Japanese1Question q5 = new Japanese1Question("パン (Pan)", "Dessert", "Bread", "Cookies", 2, Japanese1Question.DIFFICULTY_EASY);
         addQuestion(q5);
-        Japanese1Question q6 = new Japanese1Question("Japanese Hard: C is correct",
-                "A", "B", "C", 3, Japanese1Question.DIFFICULTY_HARD);
+
+
+        Japanese1Question q6 = new Japanese1Question("帽子 (Bōshi)",
+                "Skirt", "Hat", "Scarf", 2, Japanese1Question.DIFFICULTY_MEDIUM);
         addQuestion(q6);
+        Japanese1Question q7 = new Japanese1Question("シャツ (Shatsu)",
+                "Shirt", "Dress", "Socks", 1, Japanese1Question.DIFFICULTY_MEDIUM);
+        addQuestion(q7);
+        Japanese1Question q8 = new Japanese1Question("スーツ (Sūtsu)",
+                "Blazer", "Shoe", "Suit", 3, Japanese1Question.DIFFICULTY_MEDIUM);
+        addQuestion(q8);
+        Japanese1Question q9 = new Japanese1Question("パンツ (Pantsu)",
+                "T-Shirt", "Pants", "Shorts", 2, Japanese1Question.DIFFICULTY_MEDIUM);
+        addQuestion(q9);
+        Japanese1Question q10 = new Japanese1Question("ジャケット (Jaketto)",
+                "Blouse", "Hoodies", "Jacket", 3, Japanese1Question.DIFFICULTY_MEDIUM);
+        addQuestion(q10);
+
+        Japanese1Question q11 = new Japanese1Question("スーパー (Sūpā)",
+                "Supermarket", "Bicycle Shop", "Pawnshop", 1, Japanese1Question.DIFFICULTY_HARD);
+        addQuestion(q11);
+        Japanese1Question q12 = new Japanese1Question("はなや (Hanaya)",
+                "Bakery", "Florist", "Cafeteria", 2, Japanese1Question.DIFFICULTY_HARD);
+        addQuestion(q12);
+        Japanese1Question q13 = new Japanese1Question("ちゅうかりょうりてん (Chi ~yuukaryouriten)",
+                "Japanese Restaurant", "Chinese Restaurant", "Korean Restaurant", 2, Japanese1Question.DIFFICULTY_HARD);
+        addQuestion(q13);
+        Japanese1Question q14 = new Japanese1Question("ペットショップ (Petto shoppu)",
+                "Pet Shop", "Fruit Shop", "Barber Shop", 1, Japanese1Question.DIFFICULTY_HARD);
+        addQuestion(q14);
+        Japanese1Question q15 = new Japanese1Question("じょうまえや (Ji ~youmaeya)",
+                "Tailor's Shop", "Liquor Store", "Furniture Shop", 3, Japanese1Question.DIFFICULTY_HARD);
+        addQuestion(q15);
 
     }
 

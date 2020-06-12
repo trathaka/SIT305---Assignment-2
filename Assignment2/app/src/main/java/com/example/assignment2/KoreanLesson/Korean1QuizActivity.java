@@ -140,7 +140,7 @@ public class Korean1QuizActivity extends AppCompatActivity {
             questionCounter++;
             textViewQuestionCount.setText("Question: " + questionCounter + "/" + questionCountTotal);
             answered = false;
-            buttonConfirmNext.setText("Confirm");
+            buttonConfirmNext.setText("Choose");
 
             timeLeftInMillis = COUNTDOWN_IN_MILLIS;
             startCountDown();
@@ -186,7 +186,7 @@ public class Korean1QuizActivity extends AppCompatActivity {
 
         if (answerNr == currentQuestion.getAnswerNr()) {
             score++;
-            textViewScore.setText("Score: " + score);
+            textViewScore.setText("Points earned: " + score);
         }
 
         showSolution();
@@ -214,7 +214,7 @@ public class Korean1QuizActivity extends AppCompatActivity {
         if (questionCounter < questionCountTotal) {
             buttonConfirmNext.setText("Next");
         } else {
-            buttonConfirmNext.setText("Finish");
+            buttonConfirmNext.setText("Submit");
         }
     }
 
