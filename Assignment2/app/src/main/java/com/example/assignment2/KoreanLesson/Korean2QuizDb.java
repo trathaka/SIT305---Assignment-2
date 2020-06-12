@@ -46,23 +46,49 @@ public class Korean2QuizDb extends SQLiteOpenHelper {
         onCreate(db);
     }
     private void fillQuestionsTable() {
-        Korean2Question q1 = new Korean2Question("Japanese Easy: A is correct", "A", "B", "C", 1, Korean2Question.DIFFICULTY_EASY);
+        Korean2Question q1 = new Korean2Question("개 (gae)", "Fish", "Dog", "Cat", 2, Korean2Question.DIFFICULTY_EASY);
         addQuestion(q1);
-        Korean2Question q2 = new Korean2Question("Japanese Medium1: B is correct",
-                "ㄱ", "B", "C", 2, Korean2Question.DIFFICULTY_MEDIUM);
+        Korean2Question q2 = new Korean2Question("말 (mal)", "Horse", "Monkey", "Bird", 1, Korean2Question.DIFFICULTY_EASY);
         addQuestion(q2);
-        Korean2Question q3 = new Korean2Question("Japanese Medium: C is correct",
-                "A", "B", "C", 3, Korean2Question.DIFFICULTY_MEDIUM);
+        Korean2Question q3 = new Korean2Question("소 (so)", "Seal", "Tiger", "Cow", 3, Korean2Question.DIFFICULTY_EASY);
         addQuestion(q3);
-        Korean2Question q4 = new Korean2Question("Japanese Hard: A is correct",
-                "A", "B", "C", 1, Korean2Question.DIFFICULTY_HARD);
+        Korean2Question q4 = new Korean2Question("닭 (dak)", "Turtle", "Bee", "Chicken", 3, Korean2Question.DIFFICULTY_EASY);
         addQuestion(q4);
-        Korean2Question q5 = new Korean2Question("Japanese Hard: B is correct",
-                "A", "B", "C", 2, Korean2Question.DIFFICULTY_HARD);
+        Korean2Question q5 = new Korean2Question("곰 (saja)", "Lion", "Bear", "Panda", 2, Korean2Question.DIFFICULTY_EASY);
         addQuestion(q5);
-        Korean2Question q6 = new Korean2Question("Japanese Hard: C is correct",
-                "A", "B", "C", 3, Korean2Question.DIFFICULTY_HARD);
+
+        Korean2Question q6 = new Korean2Question("오리 (ori)",
+                "Ostrich", "Duck", "Eel", 2, Korean2Question.DIFFICULTY_MEDIUM);
         addQuestion(q6);
+        Korean2Question q7 = new Korean2Question("백조 (baekjo)",
+                "Peacock", "Goose", "Swan", 3, Korean2Question.DIFFICULTY_MEDIUM);
+        addQuestion(q7);
+        Korean2Question q8 = new Korean2Question("상어 (sangeo)",
+                "Penguin", "Shark", "Bison", 2, Korean2Question.DIFFICULTY_MEDIUM);
+        addQuestion(q8);
+        Korean2Question q9 = new Korean2Question("낙타 (nakta)",
+                "Ant", "Snail", "Camel", 3, Korean2Question.DIFFICULTY_MEDIUM);
+        addQuestion(q9);
+        Korean2Question q10 = new Korean2Question("치타 (chita)",
+                "Mogi", "Cheetah", "Giraffe", 2, Korean2Question.DIFFICULTY_MEDIUM);
+        addQuestion(q10);
+
+
+        Korean2Question q11 = new Korean2Question("까마귀 (kkamagwi)",
+                "Crow", "Zebra", "Leopard", 1, Korean2Question.DIFFICULTY_HARD);
+        addQuestion(q11);
+        Korean2Question q12 = new Korean2Question("하이에나 (haiena)",
+                "Antelope", "Hyena", "Koala", 2, Korean2Question.DIFFICULTY_HARD);
+        addQuestion(q12);
+        Korean2Question q13 = new Korean2Question("북극곰 (bukgeukgom)",
+                "A", "Bison", "Polar Bear", 3, Korean2Question.DIFFICULTY_HARD);
+        addQuestion(q13);
+        Korean2Question q14 = new Korean2Question("캥거루 (kaengeoru)",
+                "Kangaroo", "Octopus", "Frog", 1, Korean2Question.DIFFICULTY_HARD);
+        addQuestion(q14);
+        Korean2Question q15 = new Korean2Question("코끼리 (kokkiri)",
+                "Whale", "Elephant", "Pig", 2, Korean2Question.DIFFICULTY_HARD);
+        addQuestion(q15);
 
     }
 

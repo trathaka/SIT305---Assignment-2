@@ -46,23 +46,51 @@ public class Korean3QuizDb extends SQLiteOpenHelper {
         onCreate(db);
     }
     private void fillQuestionsTable() {
-        Korean3Question q1 = new Korean3Question("Japanese Easy: A is correct", "A", "B", "C", 1, Korean3Question.DIFFICULTY_EASY);
+        Korean3Question q1 = new Korean3Question("오다 (oda)", "Cry", "Come", "Call",2 , Korean3Question.DIFFICULTY_EASY);
         addQuestion(q1);
-        Korean3Question q2 = new Korean3Question("Japanese Medium1: B is correct",
-                "ㄱ", "B", "C", 2, Korean3Question.DIFFICULTY_MEDIUM);
+        Korean3Question q2 = new Korean3Question("먹다 (meogda)", "Teach", "Wait", "Eat", 3, Korean3Question.DIFFICULTY_EASY);
         addQuestion(q2);
-        Korean3Question q3 = new Korean3Question("Japanese Medium: C is correct",
-                "A", "B", "C", 3, Korean3Question.DIFFICULTY_MEDIUM);
+        Korean3Question q3 = new Korean3Question("가다 (gada)", "Ask", "Help", "Go", 3, Korean3Question.DIFFICULTY_EASY);
         addQuestion(q3);
-        Korean3Question q4 = new Korean3Question("Japanese Hard: A is correct",
-                "A", "B", "C", 1, Korean3Question.DIFFICULTY_HARD);
+        Korean3Question q4 = new Korean3Question("앉다 (anjda)", "Sit", "Stand", "Run", 1, Korean3Question.DIFFICULTY_EASY);
         addQuestion(q4);
-        Korean3Question q5 = new Korean3Question("Japanese Hard: B is correct",
-                "A", "B", "C", 2, Korean3Question.DIFFICULTY_HARD);
+        Korean3Question q5 = new Korean3Question("자다 (jada)", "Write", "Sleep", "Talk", 2, Korean3Question.DIFFICULTY_EASY);
         addQuestion(q5);
-        Korean3Question q6 = new Korean3Question("Japanese Hard: C is correct",
-                "A", "B", "C", 3, Korean3Question.DIFFICULTY_HARD);
+
+
+        Korean3Question q6 = new Korean3Question("싸우다 (ssauda)",
+                "Exercise", "Fight", "Pay", 2, Korean3Question.DIFFICULTY_MEDIUM);
         addQuestion(q6);
+        Korean3Question q7 = new Korean3Question("이기다 (igida)",
+                "Draw", "Lose", "Win", 3, Korean3Question.DIFFICULTY_MEDIUM);
+        addQuestion(q7);
+        Korean3Question q8 = new Korean3Question("나가다 (nagada)",
+                "Exit", "Enter", "Stay", 1, Korean3Question.DIFFICULTY_MEDIUM);
+        addQuestion(q8);
+        Korean3Question q9 = new Korean3Question("빌리다 (billida)",
+                "Return", "Keep", "Borrow", 3, Korean3Question.DIFFICULTY_MEDIUM);
+        addQuestion(q9);
+        Korean3Question q10 = new Korean3Question("끓이다 (kkeulh-ida)",
+                "Boil", "Fry", "Steam", 1, Korean3Question.DIFFICULTY_MEDIUM);
+        addQuestion(q10);
+
+        Korean3Question q11 = new Korean3Question("사랑하다 (salanghada)",
+                "Love", "Hate", "Like", 1, Korean3Question.DIFFICULTY_HARD);
+        addQuestion(q11);
+        Korean3Question q12 = new Korean3Question("약속하다 (yagsoghada)",
+                "Lie", "Promise", "Confess", 2, Korean3Question.DIFFICULTY_HARD);
+        addQuestion(q12);
+        Korean3Question q13 = new Korean3Question("결혼하다 (gyeolhonhada)",
+                "Break up", "Marry", "Born", 2, Korean3Question.DIFFICULTY_HARD);
+        addQuestion(q13);
+        Korean3Question q14 = new Korean3Question("도착하다 (dochaghada)",
+                "Depart", "Arrive", "Answer", 2, Korean3Question.DIFFICULTY_HARD);
+        addQuestion(q14);
+
+        Korean3Question q15 = new Korean3Question("기억하다 (gieoghada)",
+                "Worry", "Forget", "Remember", 3, Korean3Question.DIFFICULTY_HARD);
+        addQuestion(q15);
+
 
     }
 

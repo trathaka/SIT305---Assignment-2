@@ -192,21 +192,21 @@ public class Japanese1QuizActivity extends AppCompatActivity {
     }
 
     private void showSolution() {
-        rb1.setTextColor(Color.BLUE);
-        rb2.setTextColor(Color.BLUE);
-        rb3.setTextColor(Color.BLUE);
+        rb1.setTextColor(Color.YELLOW);
+        rb2.setTextColor(Color.YELLOW);
+        rb3.setTextColor(Color.YELLOW);
 
         switch (currentQuestion.getAnswerNr()) {
             case 1:
-                rb1.setTextColor(Color.GREEN);
+                rb1.setTextColor(Color.BLACK);
                 textViewQuestion.setText("Answer 1 is correct");
                 break;
             case 2:
-                rb2.setTextColor(Color.GREEN);
+                rb2.setTextColor(Color.BLACK);
                 textViewQuestion.setText("Answer 2 is correct");
                 break;
             case 3:
-                rb3.setTextColor(Color.GREEN);
+                rb3.setTextColor(Color.BLACK);
                 textViewQuestion.setText("Answer 3 is correct");
                 break;
         }
