@@ -10,16 +10,14 @@ import android.view.MenuItem;
 import com.example.assignment2.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class KoreanMainFragment extends AppCompatActivity {
+public class KoreanMainFragment extends AppCompatActivity  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
-
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
@@ -28,7 +26,7 @@ public class KoreanMainFragment extends AppCompatActivity {
                 public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                     Fragment selectedFragment = null;
 
-                    switch (item.getItemId()){
+                    switch (item.getItemId()) {
                         case R.id.nav_home:
                             selectedFragment = new KoreanHomeFragment();
                             break;
@@ -43,5 +41,4 @@ public class KoreanMainFragment extends AppCompatActivity {
                     return true;
                 }
             };
-
 }

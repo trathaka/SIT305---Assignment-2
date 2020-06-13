@@ -1534,8 +1534,11 @@ id blocking
 id bottom
 id bottom_navigation
 id buttonPanel
+id button_cancel
 id button_confirm_next
 id button_start_quiz
+id button_timepicker
+id buttontest
 id cancel_button
 id center
 id center_horizontal
@@ -1588,7 +1591,7 @@ id filled
 id filter_chip
 id fitToContents
 id fixed
-id flagChange
+id flag
 id footer_tv
 id forever
 id fragment_container
@@ -1871,6 +1874,7 @@ layout activity_login_page
 layout activity_logout_page
 layout activity_main
 layout activity_radio_quiz_layout
+layout activity_time_picker
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

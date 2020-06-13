@@ -69,8 +69,6 @@ public class JapaneseProfileFragment extends Fragment {
             id.setText(personId);
             Glide.with(this).load(String.valueOf(personPhoto)).into(imageView);
 
-
-
         }
         return view;
     }

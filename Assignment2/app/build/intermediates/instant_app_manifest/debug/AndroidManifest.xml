@@ -23,6 +23,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.assignment2.TimePicker" />
         <activity android:name="com.example.assignment2.LogoutPage" />
         <activity android:name="com.example.assignment2.LoginPage" />
         <activity android:name="com.example.assignment2.KoreanNavigation.KoreanMainFragment" />
@@ -51,6 +52,8 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <receiver android:name="com.example.assignment2.AlertReceiver" />
 
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"

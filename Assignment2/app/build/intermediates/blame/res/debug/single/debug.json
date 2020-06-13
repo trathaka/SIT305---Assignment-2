@@ -96,6 +96,14 @@
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_time_picker.xml.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\activity_time_picker.xml"
+    },
+    {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\raw_correct.mp3.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\raw\\correct.mp3"
+    },
+    {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_japanese1_activity.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\activity_japanese1_activity.xml"
     },
@@ -106,10 +114,6 @@
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_korean2_activity.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\activity_korean2_activity.xml"
-    },
-    {
-        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\raw_correct.mp3.flat",
-        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\raw\\correct.mp3"
     },
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_korean3_activity.xml.flat",
@@ -136,12 +140,12 @@
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient2.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\gradient2.xml"
+    },
+    {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_swedish.png.flat",
@@ -246,9 +250,5 @@
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_korean.png.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\drawable\\korean.png"
-    },
-    {
-        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu.xml.flat",
-        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\menu.xml"
     }
 ]

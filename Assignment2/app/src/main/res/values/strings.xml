@@ -2,7 +2,7 @@
     <string name="app_name">Assignment2</string>
 
     <string-array name="fadeText">
-    <item>Tap on Learn</item>
-    <item>To get started!</item>
+        <item>Tap on Learn</item>
+        <item>To get started</item>
     </string-array>
 </resources>
