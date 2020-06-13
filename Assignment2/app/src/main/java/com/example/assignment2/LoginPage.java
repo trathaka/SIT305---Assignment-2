@@ -6,6 +6,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.content.Intent;
 import android.graphics.drawable.Animatable2;
 import android.graphics.drawable.AnimationDrawable;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -30,7 +31,6 @@ public class LoginPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
-
 
         ConstraintLayout constraintLayout = findViewById(R.id.layout);
         AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
@@ -73,6 +73,7 @@ public class LoginPage extends AppCompatActivity {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
 
+
     }
 
     @Override
@@ -95,6 +96,8 @@ public class LoginPage extends AppCompatActivity {
             // Signed in successfully, show authenticated UI.
             Intent intent = new Intent(LoginPage.this, LanguageSelection.class);
             startActivity(intent);
+            final MediaPlayer mp = MediaPlayer.create(this,R.raw.sign);
+            mp.start();
             Toast.makeText(LoginPage.this,"Signed in via Google Account", Toast.LENGTH_SHORT).show();
         } catch (ApiException e) {
             // The ApiException status code indicates the detailed failure reason.

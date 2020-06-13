@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -54,7 +55,6 @@ public class KoreanListAdapter extends RecyclerView.Adapter {
         }
 
         public void onClick(View view) {
-            //Toast.makeText(view.getContext(), "position = " + getLayoutPosition(), Toast.LENGTH_SHORT).show();
 
             if (getLayoutPosition() == 0) {
                 Context context = view.getContext();
@@ -73,6 +73,21 @@ public class KoreanListAdapter extends RecyclerView.Adapter {
                 Intent intent = new Intent(context, Korean3Activity.class);
                 context.startActivity(intent);
             }
+
+            if (getLayoutPosition() == 3) {
+                Toast.makeText(view.getContext(), "This lesson is coming soon!", Toast.LENGTH_SHORT).show();
+            }
+            if (getLayoutPosition() == 4) {
+                Toast.makeText(view.getContext(), "This lesson is coming soon!", Toast.LENGTH_SHORT).show();
+            }
+            if (getLayoutPosition() == 5) {
+                Toast.makeText(view.getContext(), "This lesson is coming soon!", Toast.LENGTH_SHORT).show();
+            }
+            if (getLayoutPosition() == 6) {
+                Toast.makeText(view.getContext(), "This lesson is coming soon!", Toast.LENGTH_SHORT).show();
+            }
+
+
         }
     }
 }

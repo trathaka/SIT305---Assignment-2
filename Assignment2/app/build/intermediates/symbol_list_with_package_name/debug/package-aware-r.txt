@@ -27,6 +27,8 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fadein
+anim fadeout
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
@@ -48,6 +50,7 @@ animator mtrl_fab_transformation_sheet_expand_spec
 array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
+array fadeText
 array preloaded_fonts
 attr actionBarDivider
 attr actionBarItemBackground
@@ -677,6 +680,7 @@ attr textEndPadding
 attr textInputStyle
 attr textLocale
 attr textStartPadding
+attr texts
 attr theme
 attr themeLineHeight
 attr thickness
@@ -686,6 +690,7 @@ attr thumbTintMode
 attr tickMark
 attr tickMarkTint
 attr tickMarkTintMode
+attr timeout
 attr tint
 attr tintMode
 attr title
@@ -1575,6 +1580,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id fadingtext
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1582,6 +1588,7 @@ id filled
 id filter_chip
 id fitToContents
 id fixed
+id flagChange
 id footer_tv
 id forever
 id fragment_container
@@ -1750,7 +1757,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
-id textView3
 id textViewEmail
 id textViewID
 id textViewName
@@ -1761,6 +1767,7 @@ id text_view_difficulty
 id text_view_highscore
 id text_view_question
 id text_view_question_count
+id text_view_result
 id text_view_score
 id textinput_counter
 id textinput_error
@@ -1941,6 +1948,9 @@ menu bottom_navigation
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw correct
+raw error
+raw sign
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2751,6 +2761,7 @@ styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_a
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable ExtendedFloatingActionButton elevation extendMotionSpec hideMotionSpec showMotionSpec shrinkMotionSpec
 styleable ExtendedFloatingActionButton_Behavior_Layout behavior_autoHide behavior_autoShrink
+styleable FadingTextView texts timeout
 styleable FloatingActionButton backgroundTint backgroundTintMode borderWidth elevation ensureMinTouchTargetSize fabCustomSize fabSize hideMotionSpec hoveredFocusedTranslationZ maxImageSize pressedTranslationZ rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec useCompatPadding
 styleable FloatingActionButton_Behavior_Layout behavior_autoHide
 styleable FlowLayout itemSpacing lineSpacing

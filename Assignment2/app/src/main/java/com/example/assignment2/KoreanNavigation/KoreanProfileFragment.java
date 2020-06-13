@@ -1,6 +1,7 @@
 package com.example.assignment2.KoreanNavigation;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -51,12 +52,14 @@ public class KoreanProfileFragment extends Fragment {
         TextView email = (TextView) view.findViewById(R.id.userEmail);
         TextView id = (TextView) view.findViewById(R.id.userID);
         Button signOut = (Button) view.findViewById(R.id.sign_out_button);
+        final MediaPlayer mp = MediaPlayer.create(getActivity(),R.raw.sign);
         signOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 switch (v.getId()){
                     case R.id.sign_out_button:
                         signOut();
+                        mp.start();
                         break;
                 }
 

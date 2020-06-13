@@ -37,7 +37,6 @@ public class Japanese2QuizDb extends SQLiteOpenHelper {
                 ")";
         db.execSQL(SQL_CREATE_QUESTIONS_TABLE);
         fillQuestionsTable();
-
     }
 
     @Override
@@ -52,9 +51,9 @@ public class Japanese2QuizDb extends SQLiteOpenHelper {
         addQuestion(q2);
         Japanese2Question q3 = new Japanese2Question("いぬ (Inu)", "Oyster", "Dog", "Crab", 2, Japanese2Question.DIFFICULTY_EASY);
         addQuestion(q3);
-        Japanese2Question q4 = new Japanese2Question("ハチ(Hachi)", "Firefly", "Lizard", "Bee", 3, Japanese2Question.DIFFICULTY_EASY);
+        Japanese2Question q4 = new Japanese2Question("ハチ (Hachi)", "Firefly", "Lizard", "Bee", 3, Japanese2Question.DIFFICULTY_EASY);
         addQuestion(q4);
-        Japanese2Question q5 = new Japanese2Question("ハエ(Hae)", "Tiger", "Otter", "Fly", 3, Japanese2Question.DIFFICULTY_EASY);
+        Japanese2Question q5 = new Japanese2Question("ハエ (Hae)", "Tiger", "Otter", "Fly", 3, Japanese2Question.DIFFICULTY_EASY);
         addQuestion(q5);
 
         Japanese2Question q6 = new Japanese2Question("キツネ (Kitsune)",
@@ -82,13 +81,12 @@ public class Japanese2QuizDb extends SQLiteOpenHelper {
         Japanese2Question q13 = new Japanese2Question("コウモリ (Koumori)",
                 "Rabbit", "Quail", "Bat", 3, Japanese2Question.DIFFICULTY_HARD);
         addQuestion(q13);
-        Japanese2Question q14 = new Japanese2Question("じんちょう(jinchou)",
+        Japanese2Question q14 = new Japanese2Question("じんちょう (jinchou)",
                 "Penguin", "Owl", "Yak", 1, Japanese2Question.DIFFICULTY_HARD);
         addQuestion(q14);
         Japanese2Question q15 = new Japanese2Question("カタツムリ (katatsumuri)",
                 "Snail", "Leopard", "Jaguar", 1, Japanese2Question.DIFFICULTY_HARD);
         addQuestion(q15);
-
     }
 
     private void addQuestion(Japanese2Question question) {

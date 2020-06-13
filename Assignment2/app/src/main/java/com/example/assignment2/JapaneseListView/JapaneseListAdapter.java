@@ -73,6 +73,20 @@ public class JapaneseListAdapter extends RecyclerView.Adapter {
                 context.startActivity(intent);
             }
 
+            if (getLayoutPosition() == 3) {
+                Toast.makeText(view.getContext(), "This lesson is coming soon!", Toast.LENGTH_SHORT).show();
+            }
+            if (getLayoutPosition() == 4) {
+                Toast.makeText(view.getContext(), "This lesson is coming soon!", Toast.LENGTH_SHORT).show();
+            }
+            if (getLayoutPosition() == 5) {
+                Toast.makeText(view.getContext(), "This lesson is coming soon!", Toast.LENGTH_SHORT).show();
+            }
+            if (getLayoutPosition() == 6) {
+                Toast.makeText(view.getContext(), "This lesson is coming soon!", Toast.LENGTH_SHORT).show();
+            }
+
+
 
 
         }

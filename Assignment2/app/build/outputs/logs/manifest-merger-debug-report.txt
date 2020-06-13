@@ -5,6 +5,7 @@ INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidMa
 INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-43:12
 INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:2:1-43:12
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\95e8d6401b4c9ba9dc0f8d4da1cee10d\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.tomer:fadingtextview:2.5] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\a9569a4b8880404326ec15da2580d20e\jetified-fadingtextview-2.5\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:17:1-39:12
 MERGED from [gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\809fe86d9d640080daf2379b1c653795\jetified-easy-android-splash-screen-0.0.1\AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\ae67d481176994a76afa6f312b4e8a78\material-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -196,6 +197,8 @@ INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidMa
 INJECTED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\95e8d6401b4c9ba9dc0f8d4da1cee10d\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\95e8d6401b4c9ba9dc0f8d4da1cee10d\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.tomer:fadingtextview:2.5] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\a9569a4b8880404326ec15da2580d20e\jetified-fadingtextview-2.5\AndroidManifest.xml:6:5-8:41
+MERGED from [com.tomer:fadingtextview:2.5] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\a9569a4b8880404326ec15da2580d20e\jetified-fadingtextview-2.5\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\821fdd6098f38474a25e92c889ecf184\jetified-play-services-auth-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [gr.pantrif:easy-android-splash-screen:0.0.1] C:\Users\rath-\.gradle\caches\transforms-2\files-2.1\809fe86d9d640080daf2379b1c653795\jetified-easy-android-splash-screen-0.0.1\AndroidManifest.xml:8:5-10:41

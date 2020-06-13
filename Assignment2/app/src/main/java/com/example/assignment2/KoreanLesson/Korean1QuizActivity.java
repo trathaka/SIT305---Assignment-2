@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -34,6 +35,7 @@ public class Korean1QuizActivity extends AppCompatActivity {
     private TextView textViewScore;
     private TextView textViewQuestionCount;
 
+    private TextView textViewResult;
     private TextView textViewDifficulty;
     private TextView textViewCountDown;
     private RadioGroup rbGroup;
@@ -63,7 +65,7 @@ public class Korean1QuizActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_radio_quiz_layout);
-
+        textViewResult = findViewById(R.id.text_view_result);
         textViewQuestion = findViewById(R.id.text_view_question);
         textViewScore = findViewById(R.id.text_view_score);
         textViewQuestionCount = findViewById(R.id.text_view_question_count);
@@ -139,6 +141,7 @@ public class Korean1QuizActivity extends AppCompatActivity {
 
             questionCounter++;
             textViewQuestionCount.setText("Question: " + questionCounter + "/" + questionCountTotal);
+            textViewResult.setText("");
             answered = false;
             buttonConfirmNext.setText("Choose");
 
@@ -185,11 +188,18 @@ public class Korean1QuizActivity extends AppCompatActivity {
         int answerNr = rbGroup.indexOfChild(rbSelected) + 1;
 
         if (answerNr == currentQuestion.getAnswerNr()) {
+            textViewResult.setText("Correct!");
             score++;
             textViewScore.setText("Points earned: " + score);
+            final MediaPlayer mp = MediaPlayer.create(this,R.raw.correct);
+            mp.start();
         }
-
-        showSolution();
+        else{
+            textViewResult.setText("Wrong!");
+            final MediaPlayer mp = MediaPlayer.create(this,R.raw.error);
+            mp.start();
+            showSolution();
+        }
     }
 
     private void showSolution() {
@@ -197,18 +207,20 @@ public class Korean1QuizActivity extends AppCompatActivity {
         rb2.setTextColor(Color.YELLOW);
         rb3.setTextColor(Color.YELLOW);
 
+        int showAnswer = currentQuestion.getAnswerNr();
+
         switch (currentQuestion.getAnswerNr()) {
             case 1:
                 rb1.setTextColor(Color.BLACK);
-                textViewQuestion.setText("Answer 1 is correct");
+                textViewQuestion.setText("The correct answer is number " + showAnswer);
                 break;
             case 2:
                 rb2.setTextColor(Color.BLACK);
-                textViewQuestion.setText("Answer 2 is correct");
+                textViewQuestion.setText("The correct answer is number " + showAnswer);
                 break;
             case 3:
                 rb3.setTextColor(Color.BLACK);
-                textViewQuestion.setText("Answer 3 is correct");
+                textViewQuestion.setText("The correct answer is number " + showAnswer);
                 break;
         }
         if (questionCounter < questionCountTotal) {
@@ -243,6 +255,4 @@ public class Korean1QuizActivity extends AppCompatActivity {
         outState.putBoolean(KEY_ANSWERED, answered);
         outState.putParcelableArrayList(KEY_QUESTION_LIST, questionList);
     }
-
-
 }

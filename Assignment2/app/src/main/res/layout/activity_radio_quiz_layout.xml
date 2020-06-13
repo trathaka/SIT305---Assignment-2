@@ -44,6 +44,20 @@
         android:freezesText="true"
         android:textColor="@android:color/black"
         android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/text_view_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_view_question"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:freezesText="true"
+        android:textSize="50sp" />
+
+
     <TextView
         android:id="@+id/text_view_question"
         android:layout_width="match_parent"
