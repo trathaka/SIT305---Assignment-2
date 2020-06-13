@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#edb007"
     tools:context=".TimePicker">
 
     <TextView
@@ -12,10 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/button_timepicker"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="116dp"
-        android:layout_marginTop="128dp"
-        android:text="No Alarm set"
+        android:layout_marginTop="192dp"
+        android:text="No Reminder"
         android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,9 +27,11 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="36dp"
-        android:text="open time picker"
+        android:layout_marginTop="76dp"
+        android:text="Choose time"
+        android:textColor="#43b4ef"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -37,9 +41,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/button_timepicker"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="40dp"
-        android:text="cancel alarm"
+        android:layout_marginTop="16dp"
+        android:text="Cancel reminder"
+        android:textColor="#43b4ef"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_timepicker" />
 

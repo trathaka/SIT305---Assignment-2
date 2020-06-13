@@ -1,5 +1,5 @@
 
-14/05/2020 - Setting up the project to GitHub
+14/05/2020 	- Setting up the project to GitHub
 16-21/05/2020 	- Implemeting multiple choice questions activity layouts and flows with intent
 	   	- Preparing model classes for questions and contract class, containing variables for table and column in SQLite datbase	
 	  	- Prepraring SQLiteOpenHelper class to create a database, defining database name and version.
@@ -20,5 +20,10 @@
 		- Creating Korean and Japanese lessons through listView items on fragments	
 11/06/2020 	- Implementing Google login intergration
 		- Creating layout for 'Profile' fragment with Google login
-		- Finalising and polishing Korean and Japanese questions and overall aesthetics
+12/06/2020	- Finalising and polishing Korean and Japanese questions and overall aesthetics
+13/06/2020	- Adding sound effects		
+		- Fixing Countdown Timer
+		- Adding Elements to 'Setting Page'
+		- Adding Notification with TimePicker
+		- Adding social media (Facebook, Twitter, Google+) sharing features
 		

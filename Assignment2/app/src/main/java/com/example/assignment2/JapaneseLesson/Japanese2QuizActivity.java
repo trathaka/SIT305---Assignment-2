@@ -184,6 +184,8 @@ public class Japanese2QuizActivity extends AppCompatActivity {
     private void checkAnswer() {
         answered = true;
 
+        countDownTimer.cancel();
+
         RadioButton rbSelected = findViewById(rbGroup.getCheckedRadioButtonId());
         int answerNr = rbGroup.indexOfChild(rbSelected) + 1;
 
@@ -254,6 +256,13 @@ public class Japanese2QuizActivity extends AppCompatActivity {
         outState.putLong(KEY_MILLIS_LEFT, timeLeftInMillis);
         outState.putBoolean(KEY_ANSWERED, answered);
         outState.putParcelableArrayList(KEY_QUESTION_LIST, questionList);
+    }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (countDownTimer != null) {
+            countDownTimer.cancel();
+        }
     }
 
 
