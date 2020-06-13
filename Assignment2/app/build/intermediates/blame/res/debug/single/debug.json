@@ -92,12 +92,12 @@
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\fragment_japanese_home.xml"
     },
     {
-        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_time_picker.xml.flat",
         "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\layout\\activity_time_picker.xml"
+    },
+    {
+        "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "R:\\GitHub\\SIT305---Assignment-2\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\raw_correct.mp3.flat",
