@@ -1,1 +1,23 @@
-***
+
+IMAGES
+
+FLAGS - https://www.flaticon.com/packs/flags-17?k=1591794855169
+ANIMAL.PNG - https://www.flaticon.com/free-icon/elephant_2911338?term=elephant&page=1&position=6
+SPORT.PNG - https://www.flaticon.com/free-icon/basketball_2971994?term=basketball&page=1&position=8
+VERB.PNG - https://www.flaticon.com/free-icon/jogging_1466426?term=run&page=1&position=44
+SHOPPING.PNG - https://www.flaticon.com/free-icon/shopping-cart_833339?term=shopping&page=1&position=2
+CONJUNCTION.PNG - https://www.flaticon.com/free-icon/book_864685?term=for&page=1&position=2
+ADJECTIVE.PNG - https://www.flaticon.com/free-icon/lamp_2910914?term=idea&page=1&position=4
+MONKEY - https://www.cleanpng.com/png-monkey-clip-art-monkey-694175/preview.html
+
+
+****************************************************************************************************************
+
+SOUNDS
+
+correct.mp3 - http://www.orangefreesounds.com/video-game-bonus-bell-sound-effect/
+error.mp3 - http://www.orangefreesounds.com/game-show-buzzer-sound/
+
+
+
+
