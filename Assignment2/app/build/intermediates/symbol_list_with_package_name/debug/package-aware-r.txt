@@ -1539,7 +1539,7 @@ id button_confirm_next
 id button_facebook
 id button_google
 id button_set_alarm
-id button_start_quiz
+id button_start
 id button_timepicker
 id button_twitter
 id cancel_button
@@ -1880,7 +1880,6 @@ layout activity_korean2_activity
 layout activity_korean3_activity
 layout activity_language_selection
 layout activity_login_page
-layout activity_logout_page
 layout activity_main
 layout activity_radio_quiz_layout
 layout activity_time_picker

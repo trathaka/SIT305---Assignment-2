@@ -2,6 +2,7 @@ package com.example.assignment2.KoreanListView;
 
 import com.example.assignment2.R;
 
+// Dataset model for the listView
 public class KoreanData {
     public static String[] title = new String[]{
             "Shopping", "Animals", "Verbs", "Sports", "Conjunction", "Adjective 1", "Adjective 2"

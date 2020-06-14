@@ -26,7 +26,6 @@ public class Japanese3Activity extends AppCompatActivity {
 
     private int highScore;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,16 +39,16 @@ public class Japanese3Activity extends AppCompatActivity {
         adapterDifficulty.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerDifficulty.setAdapter(adapterDifficulty);
 
-        Button buttonStartQuiz = findViewById(R.id.button_start_quiz);
-        buttonStartQuiz.setOnClickListener(new View.OnClickListener() {
+        Button buttonStart = findViewById(R.id.button_start);
+        buttonStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startQuiz();
+                startExercise();
             }
         });
     }
 
-    private void startQuiz() {
+    private void startExercise() {
         String difficulty = spinnerDifficulty.getSelectedItem().toString();
 
         Intent intent = new Intent(Japanese3Activity.this, Japanese3QuizActivity.class);

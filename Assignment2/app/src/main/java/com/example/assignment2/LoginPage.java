@@ -31,14 +31,15 @@ public class LoginPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
-
+        // Animate gradient background
         ConstraintLayout constraintLayout = findViewById(R.id.layout);
         AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
         animationDrawable.setEnterFadeDuration(1500);
         animationDrawable.setExitFadeDuration(3500);
         animationDrawable.start();
 
-                textView = findViewById(R.id.noLogin);
+        // Button to intent without logging in
+        textView = findViewById(R.id.noLogin);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,13 +48,14 @@ public class LoginPage extends AppCompatActivity {
             }
         });
 
-        // Set the dimensions of the sign-in button.
+        // Set the dimensions of the sign-in button
+        // Handle sign-in intent on button taps
         SignInButton signInButton = findViewById(R.id.sign_in_button);
         signInButton.setSize(SignInButton.SIZE_STANDARD);
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                switch (v.getId()){
+                switch (v.getId()) {
                     case R.id.sign_in_button:
                         signIn();
                         break;
@@ -61,29 +63,26 @@ public class LoginPage extends AppCompatActivity {
             }
         });
 
+        // Configure sign-in to request the user's name, ID, email address and profile picture to include within DEFAULT_SIGN_IN
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
                 .build();
-
+        // Build a GoogleSignInClient with the options specified by gso
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
     }
-
+    // Sign-in intent method with getSignInIntent
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
-
-
     }
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        // Result returned from launching the Intent from GoogleSignInClient.getSignInIntent(...);
+        // Result returned from launching the Intent from GoogleSignInClient.getSignInIntent();
         if (requestCode == RC_SIGN_IN) {
-            // The Task returned from this call is always completed, no need to attach
-            // a listener.
             Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
             handleSignInResult(task);
         }
@@ -92,19 +91,16 @@ public class LoginPage extends AppCompatActivity {
     private void handleSignInResult(Task<GoogleSignInAccount> completedTask) {
         try {
             GoogleSignInAccount account = completedTask.getResult(ApiException.class);
-
             // Signed in successfully, show authenticated UI.
             Intent intent = new Intent(LoginPage.this, LanguageSelection.class);
             startActivity(intent);
-            final MediaPlayer mp = MediaPlayer.create(this,R.raw.sign);
+            // Play sign-in sound and display a toast message on success
+            final MediaPlayer mp = MediaPlayer.create(this, R.raw.sign);
             mp.start();
-            Toast.makeText(LoginPage.this,"Signed in via Google Account", Toast.LENGTH_SHORT).show();
+            Toast.makeText(LoginPage.this, "Signed in via Google Account", Toast.LENGTH_SHORT).show();
         } catch (ApiException e) {
             // The ApiException status code indicates the detailed failure reason.
-            // Please refer to the GoogleSignInStatusCodes class reference for more information.
             Log.w("Error", "signInResult:failed code=" + e.getStatusCode());
-
         }
     }
-
 }

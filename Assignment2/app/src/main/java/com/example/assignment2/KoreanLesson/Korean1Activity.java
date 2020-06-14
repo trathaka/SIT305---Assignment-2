@@ -40,16 +40,16 @@ public class Korean1Activity extends AppCompatActivity {
         adapterDifficulty.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerDifficulty.setAdapter(adapterDifficulty);
 
-        Button buttonStartQuiz = findViewById(R.id.button_start_quiz);
+        Button buttonStartQuiz = findViewById(R.id.button_start);
         buttonStartQuiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startQuiz();
+                startExercise();
             }
         });
     }
 
-    private void startQuiz() {
+    private void startExercise() {
         String difficulty = spinnerDifficulty.getSelectedItem().toString();
 
         Intent intent = new Intent(Korean1Activity.this, Korean1QuizActivity.class);

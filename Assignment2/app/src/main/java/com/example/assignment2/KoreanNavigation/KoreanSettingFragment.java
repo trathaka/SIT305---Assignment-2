@@ -24,6 +24,7 @@ public class KoreanSettingFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_setting, container, false);
 
+        // Button for GooglePlus sharing button
         Button buttonG = (Button) view.findViewById(R.id.button_google);
         buttonG.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,6 +33,7 @@ public class KoreanSettingFragment extends Fragment {
             }
         });
 
+        // Button for Twitter sharing button
         Button buttonT = (Button) view.findViewById(R.id.button_twitter);
         buttonT.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +43,7 @@ public class KoreanSettingFragment extends Fragment {
             }
         });
 
+        // Button for Facebook sharing button
         Button buttonF = (Button) view.findViewById(R.id.button_facebook);
         buttonF.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,6 +52,7 @@ public class KoreanSettingFragment extends Fragment {
             }
         });
 
+        // Button for intent to TimePicker
         Button button = (Button) view.findViewById(R.id.button_set_alarm);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,6 +64,7 @@ public class KoreanSettingFragment extends Fragment {
         return view;
     }
 
+    // Sharing Intent method for sharing to Facebook
     public void buttonFClick(View v) {
         try{
         Intent sharingIntent = new Intent(Intent.ACTION_SEND);
@@ -73,6 +78,7 @@ public class KoreanSettingFragment extends Fragment {
         }
     }
 
+    // Sharing Intent method for sharing to Twitter
     public void buttonTClick(View v) {
         try{
         Intent sharingIntent = new Intent(Intent.ACTION_SEND);
@@ -86,6 +92,7 @@ public class KoreanSettingFragment extends Fragment {
         }
     }
 
+    // Sharing Intent method for sharing to GooglePlus
     public void buttonGClick(View v) {
         try {
             Intent sharingIntent = new Intent(Intent.ACTION_SEND);

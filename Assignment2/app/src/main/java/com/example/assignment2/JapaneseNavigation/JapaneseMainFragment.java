@@ -21,7 +21,7 @@ public class JapaneseMainFragment extends AppCompatActivity {
         bottomNav.setOnNavigationItemSelectedListener(navListener);
 
     }
-
+    // Handle changes of fragments for each menu selected in the BottomNavigationView
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
             new BottomNavigationView.OnNavigationItemSelectedListener() {
                 @Override
@@ -43,5 +43,4 @@ public class JapaneseMainFragment extends AppCompatActivity {
                     return true;
                 }
             };
-
 }

@@ -19,7 +19,7 @@ public class KoreanMainFragment extends AppCompatActivity  {
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
     }
-
+    // Handle changes of fragments for each menu selected in the BottomNavigationView
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
             new BottomNavigationView.OnNavigationItemSelectedListener() {
                 @Override

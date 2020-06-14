@@ -51,7 +51,7 @@ public class Japanese3QuizDb extends SQLiteOpenHelper {
         Japanese3Question q2 = new Japanese3Question("Japanese Medium1: B is correct",
                 "ㄱ", "B", "C", 2, Japanese3Question.DIFFICULTY_MEDIUM);
         addQuestion(q2);
-        Japanese3Question q3 = new Japanese3Question("Japanesen Medium: C is correct",
+        Japanese3Question q3 = new Japanese3Question("Japanese Medium: C is correct",
                 "A", "B", "C", 3, Japanese3Question.DIFFICULTY_MEDIUM);
         addQuestion(q3);
         Japanese3Question q4 = new Japanese3Question("Japanese Hard: A is correct",

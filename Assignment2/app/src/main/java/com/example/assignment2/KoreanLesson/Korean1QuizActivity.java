@@ -109,7 +109,6 @@ public class Korean1QuizActivity extends AppCompatActivity {
                 showSolution();
             }
         }
-
         buttonConfirmNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

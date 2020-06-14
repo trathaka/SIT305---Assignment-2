@@ -21,9 +21,12 @@ public class KoreanHomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_korean_home, container, false);
         RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.listRecyclerView);
 
+        // Apply an adapter to the RecyclerView
         KoreanListAdapter listAdapter = new KoreanListAdapter();
         recyclerView.setAdapter(listAdapter);
+        // Use a linear layout manager
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
+        // Specify an adapter
         recyclerView.setLayoutManager(layoutManager);
         return view;
     }

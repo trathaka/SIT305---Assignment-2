@@ -12,8 +12,8 @@ public class SplashScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
+        // User external library to create and setup a simple SplashScreen with basic image and text
         EasySplashScreen config = new EasySplashScreen(SplashScreen.this)
                 .withFullScreen()
                 .withTargetActivity(LoginPage.class)
@@ -23,7 +23,6 @@ public class SplashScreen extends AppCompatActivity {
                 .withLogo(R.drawable.monkey);
 
         config.getFooterTextView().setTextColor(Color.WHITE);
-
         View splashScreen = config.create();
         setContentView(splashScreen);
 

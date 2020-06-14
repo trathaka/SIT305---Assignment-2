@@ -23,7 +23,6 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.assignment2.TimePicker" />
-        <activity android:name="com.example.assignment2.LogoutPage" />
         <activity android:name="com.example.assignment2.LoginPage" />
         <activity android:name="com.example.assignment2.KoreanNavigation.KoreanMainFragment" />
         <activity android:name="com.example.assignment2.JapaneseNavigation.JapaneseMainFragment" />

@@ -33,18 +33,12 @@ public class JapaneseProfileFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
 
-        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestEmail()
-                .build();
-
-        mGoogleSignInClient = GoogleSignIn.getClient(getContext(), gso);
-
-
         ImageView imageView = (ImageView) view.findViewById(R.id.userImage);
         TextView name = (TextView) view.findViewById(R.id.userName);
         TextView email = (TextView) view.findViewById(R.id.userEmail);
         TextView id = (TextView) view.findViewById(R.id.userID);
         Button signOut = (Button) view.findViewById(R.id.sign_out_button);
+        // onClickListener for sign-out button
         signOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,10 +47,17 @@ public class JapaneseProfileFragment extends Fragment {
                         signOut();
                         break;
                 }
-
             }
         });
 
+        // Configure sign-in to request the user's name, ID, email address and profile picture to include within DEFAULT_SIGN_IN
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail()
+                .build();
+        // Build a GoogleSignInClient with the options specified by gso
+        mGoogleSignInClient = GoogleSignIn.getClient(getContext(), gso);
+
+        // Use the GoogleSignIn.getLastSignedInAccount to retrieve profile information for a signed in user
         GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(getContext());
         if (acct != null) {
             String personName = acct.getDisplayName();
@@ -64,15 +65,17 @@ public class JapaneseProfileFragment extends Fragment {
             String personId = acct.getId();
             Uri personPhoto = acct.getPhotoUrl();
 
+            // Bind textView with elements retrieved
             name.setText(personName);
             email.setText(personEmail);
             id.setText(personId);
-            Glide.with(this).load(String.valueOf(personPhoto)).into(imageView);
 
+            // Use Glide library to display user's picture in the imageView
+            Glide.with(this).load(String.valueOf(personPhoto)).into(imageView);
         }
         return view;
     }
-
+    // Google sign-out method
     private void signOut() {
         mGoogleSignInClient.signOut()
                 .addOnCompleteListener(getActivity(), new OnCompleteListener<Void>() {
