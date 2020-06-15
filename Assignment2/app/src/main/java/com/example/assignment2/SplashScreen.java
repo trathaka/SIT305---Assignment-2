@@ -25,6 +25,5 @@ public class SplashScreen extends AppCompatActivity {
         config.getFooterTextView().setTextColor(Color.WHITE);
         View splashScreen = config.create();
         setContentView(splashScreen);
-
     }
 }

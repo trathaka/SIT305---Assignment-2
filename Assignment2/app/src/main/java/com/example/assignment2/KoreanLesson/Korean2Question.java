@@ -3,6 +3,8 @@ package com.example.assignment2.KoreanLesson;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+// Data set model for the questions
+// A bridge between the app and the database
 public class Korean2Question implements Parcelable {
     public static final String DIFFICULTY_EASY = "Easy";
     public static final String DIFFICULTY_MEDIUM = "Medium";
@@ -15,9 +17,11 @@ public class Korean2Question implements Parcelable {
     private int answerNr;
     private String difficulty;
 
+    // Empty constructor
     public Korean2Question(){
     }
 
+    // Main constructor passing all the declared variables
     public Korean2Question(String question, String option1, String option2, String option3, int answerNr, String difficulty) {
         this.question = question;
         this.option1 = option1;
@@ -63,6 +67,7 @@ public class Korean2Question implements Parcelable {
         }
     };
 
+    // Getter and Setter methods
     public String getQuestion() {
         return question;
     }

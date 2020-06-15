@@ -12,8 +12,6 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.assignment2.JapaneseLesson.Japanese1Question;
-import com.example.assignment2.JapaneseLesson.Japanese1QuizActivity;
 import com.example.assignment2.R;
 
 public class Japanese1Activity extends AppCompatActivity {
@@ -35,6 +33,7 @@ public class Japanese1Activity extends AppCompatActivity {
         setContentView(R.layout.activity_japanese1_activity);
 
         textViewHighScore = findViewById(R.id.text_view_highscore);
+        loadHighScore();
         spinnerDifficulty = findViewById(R.id.spinner_difficulty);
 
         String[] difficultyLevels = Japanese1Question.getAllDifficultyLevels();
@@ -43,6 +42,7 @@ public class Japanese1Activity extends AppCompatActivity {
         spinnerDifficulty.setAdapter(adapterDifficulty);
 
         Button buttonStart = findViewById(R.id.button_start);
+        // Button onClickListener to open a new activity
         buttonStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,29 +50,30 @@ public class Japanese1Activity extends AppCompatActivity {
             }
         });
     }
-
+    // Intent to QuestionActivity with startActivityForResult
     private void startExercise() {
         String difficulty = spinnerDifficulty.getSelectedItem().toString();
 
-        Intent intent = new Intent(Japanese1Activity.this, Japanese1QuizActivity.class);
+        Intent intent = new Intent(Japanese1Activity.this, Japanese1QuestionActivity.class);
         intent.putExtra(EXTRA_DIFFICULTY, difficulty);
         startActivityForResult(intent, REQUEST_CODE_QUIZ);
     }
 
+    // Deal with REQUEST_CODE and data to intent
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == REQUEST_CODE_QUIZ){
             if (resultCode == RESULT_OK){
-                int score = data.getIntExtra(Japanese1QuizActivity.EXTRA_SCORE,0);
+                int score = data.getIntExtra(Japanese1QuestionActivity.EXTRA_SCORE,0);
                 if (score > highScore){
                     updateHighScore(score);
                 }
             }
         }
     }
-
+    // Load the score from sharePreferences
     private void loadHighScore(){
         SharedPreferences prefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
         highScore = prefs.getInt(KEY_HIGH_SCORE,0);
@@ -80,6 +81,7 @@ public class Japanese1Activity extends AppCompatActivity {
     }
 
 
+    // Method to set current high score to the new score and save it in sharePreferences
     private void updateHighScore(int highScoreNew){
         highScore = highScoreNew;
         textViewHighScore.setText("Highscore: " + highScore);

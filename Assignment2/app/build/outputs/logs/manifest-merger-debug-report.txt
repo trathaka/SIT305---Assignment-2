@@ -123,26 +123,26 @@ activity#com.example.assignment2.JapaneseLesson.Japanese1Activity
 ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:9-70
 	android:name
 		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:19-67
-activity#com.example.assignment2.JapaneseLesson.Japanese1QuizActivity
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:9-74
+activity#com.example.assignment2.JapaneseLesson.Japanese1QuestionActivity
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:9-78
 	android:name
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:19-71
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:19-75
 activity#com.example.assignment2.JapaneseLesson.Japanese2Activity
 ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:9-70
 	android:name
 		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:19-67
-activity#com.example.assignment2.JapaneseLesson.Japanese2QuizActivity
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:21:9-74
+activity#com.example.assignment2.JapaneseLesson.Japanese2QuestionActivity
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:21:9-78
 	android:name
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:21:19-71
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:21:19-75
 activity#com.example.assignment2.JapaneseLesson.Japanese3Activity
 ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:22:9-70
 	android:name
 		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:22:19-67
-activity#com.example.assignment2.JapaneseLesson.Japanese3QuizActivity
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:23:9-74
+activity#com.example.assignment2.JapaneseLesson.Japanese3QuestionActivity
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:23:9-78
 	android:name
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:23:19-71
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:23:19-75
 activity#com.example.assignment2.LanguageSelection
 ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:24:9-55
 	android:name
@@ -151,26 +151,26 @@ activity#com.example.assignment2.KoreanLesson.Korean1Activity
 ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:25:9-66
 	android:name
 		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:25:19-63
-activity#com.example.assignment2.KoreanLesson.Korean1QuizActivity
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:26:9-70
+activity#com.example.assignment2.KoreanLesson.Korean1QuestionActivity
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:26:9-74
 	android:name
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:26:19-67
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:26:19-71
 activity#com.example.assignment2.KoreanLesson.Korean2Activity
 ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:27:9-66
 	android:name
 		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:27:19-63
-activity#com.example.assignment2.KoreanLesson.Korean2QuizActivity
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:28:9-70
+activity#com.example.assignment2.KoreanLesson.Korean2QuestionActivity
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:28:9-74
 	android:name
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:28:19-67
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:28:19-71
 activity#com.example.assignment2.KoreanLesson.Korean3Activity
 ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:29:9-66
 	android:name
 		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:29:19-63
-activity#com.example.assignment2.KoreanLesson.Korean3QuizActivity
-ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:30:9-70
+activity#com.example.assignment2.KoreanLesson.Korean3QuestionActivity
+ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:30:9-74
 	android:name
-		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:30:19-67
+		ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:30:19-71
 activity#com.example.assignment2.SplashScreen
 ADDED from R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:31:9-37:20
 	android:name

@@ -28,18 +28,18 @@
         <activity android:name="com.example.assignment2.KoreanNavigation.KoreanMainFragment" />
         <activity android:name="com.example.assignment2.JapaneseNavigation.JapaneseMainFragment" />
         <activity android:name="com.example.assignment2.JapaneseLesson.Japanese1Activity" />
-        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese1QuizActivity" />
+        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese1QuestionActivity" />
         <activity android:name="com.example.assignment2.JapaneseLesson.Japanese2Activity" />
-        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese2QuizActivity" />
+        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese2QuestionActivity" />
         <activity android:name="com.example.assignment2.JapaneseLesson.Japanese3Activity" />
-        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese3QuizActivity" />
+        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese3QuestionActivity" />
         <activity android:name="com.example.assignment2.LanguageSelection" />
         <activity android:name="com.example.assignment2.KoreanLesson.Korean1Activity" />
-        <activity android:name="com.example.assignment2.KoreanLesson.Korean1QuizActivity" />
+        <activity android:name="com.example.assignment2.KoreanLesson.Korean1QuestionActivity" />
         <activity android:name="com.example.assignment2.KoreanLesson.Korean2Activity" />
-        <activity android:name="com.example.assignment2.KoreanLesson.Korean2QuizActivity" />
+        <activity android:name="com.example.assignment2.KoreanLesson.Korean2QuestionActivity" />
         <activity android:name="com.example.assignment2.KoreanLesson.Korean3Activity" />
-        <activity android:name="com.example.assignment2.KoreanLesson.Korean3QuizActivity" />
+        <activity android:name="com.example.assignment2.KoreanLesson.Korean3QuestionActivity" />
         <activity android:name="com.example.assignment2.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -8,6 +8,7 @@ import androidx.core.app.NotificationCompat;
 
 public class AlertReceiver extends BroadcastReceiver {
 
+    // To be called when the alarm is invoked, to show a notification
     @Override
     public void onReceive(Context context, Intent intent){
         NotificationHelper notificationHelper = new NotificationHelper(context);

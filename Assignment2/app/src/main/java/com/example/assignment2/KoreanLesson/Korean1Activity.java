@@ -33,6 +33,7 @@ public class Korean1Activity extends AppCompatActivity {
         setContentView(R.layout.activity_korean1_activity);
 
         textViewHighScore = findViewById(R.id.text_view_highscore);
+        loadHighScore();
         spinnerDifficulty = findViewById(R.id.spinner_difficulty);
 
         String[] difficultyLevels = Korean1Question.getAllDifficultyLevels();
@@ -41,6 +42,7 @@ public class Korean1Activity extends AppCompatActivity {
         spinnerDifficulty.setAdapter(adapterDifficulty);
 
         Button buttonStartQuiz = findViewById(R.id.button_start);
+        // Button onClickListener to open a new activity
         buttonStartQuiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,21 +51,23 @@ public class Korean1Activity extends AppCompatActivity {
         });
     }
 
+    // Intent to QuestionActivity with startActivityForResult
     private void startExercise() {
         String difficulty = spinnerDifficulty.getSelectedItem().toString();
 
-        Intent intent = new Intent(Korean1Activity.this, Korean1QuizActivity.class);
+        Intent intent = new Intent(Korean1Activity.this, Korean1QuestionActivity.class);
         intent.putExtra(EXTRA_DIFFICULTY, difficulty);
         startActivityForResult(intent, REQUEST_CODE_QUIZ);
     }
 
+    // Deal with REQUEST_CODE and data to intent
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == REQUEST_CODE_QUIZ){
             if (resultCode == RESULT_OK){
-                int score = data.getIntExtra(Korean1QuizActivity.EXTRA_SCORE,0);
+                int score = data.getIntExtra(Korean1QuestionActivity.EXTRA_SCORE,0);
                 if (score > highScore){
                     updateHighScore(score);
                 }
@@ -71,6 +75,7 @@ public class Korean1Activity extends AppCompatActivity {
         }
     }
 
+    // Load the score from sharePreferences
     private void loadHighScore(){
         SharedPreferences prefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
         highScore = prefs.getInt(KEY_HIGH_SCORE,0);
@@ -78,6 +83,7 @@ public class Korean1Activity extends AppCompatActivity {
     }
 
 
+    // Method to set current high score to the new score and save it in sharePreferences
     private void updateHighScore(int highScoreNew){
         highScore = highScoreNew;
         textViewHighScore.setText("Highscore: " + highScore);

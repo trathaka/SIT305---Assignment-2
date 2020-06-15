@@ -50,42 +50,42 @@
 29        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese1Activity" />
 29-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:9-70
 29-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:18:19-67
-30        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese1QuizActivity" />
-30-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:9-74
-30-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:19-71
+30        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese1QuestionActivity" />
+30-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:9-78
+30-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:19:19-75
 31        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese2Activity" />
 31-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:9-70
 31-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:20:19-67
-32        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese2QuizActivity" />
-32-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:21:9-74
-32-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:21:19-71
+32        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese2QuestionActivity" />
+32-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:21:9-78
+32-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:21:19-75
 33        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese3Activity" />
 33-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:22:9-70
 33-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:22:19-67
-34        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese3QuizActivity" />
-34-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:23:9-74
-34-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:23:19-71
+34        <activity android:name="com.example.assignment2.JapaneseLesson.Japanese3QuestionActivity" />
+34-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:23:9-78
+34-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:23:19-75
 35        <activity android:name="com.example.assignment2.LanguageSelection" />
 35-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:24:9-55
 35-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:24:19-52
 36        <activity android:name="com.example.assignment2.KoreanLesson.Korean1Activity" />
 36-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:25:9-66
 36-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:25:19-63
-37        <activity android:name="com.example.assignment2.KoreanLesson.Korean1QuizActivity" />
-37-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:26:9-70
-37-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:26:19-67
+37        <activity android:name="com.example.assignment2.KoreanLesson.Korean1QuestionActivity" />
+37-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:26:9-74
+37-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:26:19-71
 38        <activity android:name="com.example.assignment2.KoreanLesson.Korean2Activity" />
 38-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:27:9-66
 38-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:27:19-63
-39        <activity android:name="com.example.assignment2.KoreanLesson.Korean2QuizActivity" />
-39-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:28:9-70
-39-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:28:19-67
+39        <activity android:name="com.example.assignment2.KoreanLesson.Korean2QuestionActivity" />
+39-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:28:9-74
+39-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:28:19-71
 40        <activity android:name="com.example.assignment2.KoreanLesson.Korean3Activity" />
 40-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:29:9-66
 40-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:29:19-63
-41        <activity android:name="com.example.assignment2.KoreanLesson.Korean3QuizActivity" />
-41-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:30:9-70
-41-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:30:19-67
+41        <activity android:name="com.example.assignment2.KoreanLesson.Korean3QuestionActivity" />
+41-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:30:9-74
+41-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:30:19-71
 42        <activity android:name="com.example.assignment2.SplashScreen" >
 42-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:31:9-37:20
 42-->R:\GitHub\SIT305---Assignment-2\Assignment2\app\src\main\AndroidManifest.xml:31:19-47

@@ -43,11 +43,13 @@ public class TimePicker extends AppCompatActivity implements TimePickerDialog.On
         });
     }
 
+    // Update the textView with time and date format
     private void updateTimeText(Calendar c) {
         String timeText = "Reminder at ";
         timeText += DateFormat.getTimeInstance(DateFormat.SHORT).format(c.getTime());
         mTextView.setText(timeText);
     }
+    // Method to create an alarm using AlarmManager
     private void startAlarm(Calendar c) {
         AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
         Intent intent = new Intent(this, AlertReceiver.class);
@@ -55,8 +57,10 @@ public class TimePicker extends AppCompatActivity implements TimePickerDialog.On
         if (c.before(Calendar.getInstance())) {
             c.add(Calendar.DATE, 1);
         }
+        // The alarm will be invoked at c.getTimeMillis(), using pendingIntent containing AlertReceiver to pop up a notification
         alarmManager.setExact(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), pendingIntent);
     }
+    // To cancel and set alarm with the same broadcast
     private void cancelAlarm() {
         AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
         Intent intent = new Intent(this, AlertReceiver.class);
@@ -65,13 +69,16 @@ public class TimePicker extends AppCompatActivity implements TimePickerDialog.On
         mTextView.setText("Reminder Cancelled");
     }
 
+    // Callback method to set the alarm
     @Override
     public void onTimeSet(android.widget.TimePicker view, int hourOfDay, int minute) {
         Calendar c = Calendar.getInstance();
         c.set(Calendar.HOUR_OF_DAY, hourOfDay);
         c.set(Calendar.MINUTE, minute);
         c.set(Calendar.SECOND, 0);
+        // Update the texView created passing the calender instance
         updateTimeText(c);
+        // Create the alarm and pass the calender instance
         startAlarm(c);
 
     }

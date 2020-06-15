@@ -35,6 +35,6 @@ public class NotificationHelper extends ContextWrapper {
         return new NotificationCompat.Builder(getApplicationContext(), channelID)
                 .setContentTitle("Hey User!")
                 .setContentText("It's time for your lesson")
-                .setSmallIcon(R.drawable.common_google_signin_btn_icon_dark);
+                .setSmallIcon(R.drawable.monkey);
     }
 }
